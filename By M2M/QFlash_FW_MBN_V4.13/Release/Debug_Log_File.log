@@ -1,0 +1,93 @@
+2017-8-2_17:46:51 <--> Version-V4.3.3
+2017-8-2_17:46:51 <--> Detect and DL SA ......
+2017-8-2_17:47:5 <--> SA download start auto
+2017-8-2_17:47:5 <--> DL SA NORM
+2017-8-2_17:47:5 <--> E:\work\Qualcom\BG96-0522\BG96MAR02A02V03M1G\BG96MAR02A02V03M1G\UPDATE\NPRG9x06.mbn
+2017-8-2_17:47:9 <--> SA download re-start
+2017-8-2_17:47:17 <--> E:\work\Qualcom\BG96-0522\BG96MAR02A02V03M1G\BG96MAR02A02V03M1G\UPDATE\partition.mbn
+2017-8-2_17:47:30 <--> Version-V4.3.3
+2017-8-2_17:47:30 <--> Detect and DL SA ......
+2017-8-2_17:48:45 <--> Version-V4.3.3
+2017-8-2_17:48:45 <--> Detect and DL SA ......
+2017-8-2_17:48:59 <--> SA download start auto
+2017-8-2_17:48:59 <--> DL SA NORM
+2017-8-2_17:48:59 <--> E:\work\Qualcom\BG96-0522\BG96MAR02A02V03M1G\BG96MAR02A02V03M1G\UPDATE\NPRG9x06.mbn
+2017-8-2_17:49:3 <--> SA download re-start
+2017-8-2_17:50:0 <--> Version-V4.3.3
+2017-8-2_17:50:0 <--> Pass,AT COMAND SUCESS!
+2017-8-2_17:50:0 <--> Open com port 124......
+2017-8-2_17:50:0 <--> Detect and DL SA ......
+2017-8-2_17:50:14 <--> SA download start auto
+2017-8-2_17:50:14 <--> DL SA NORM
+2017-8-2_17:50:14 <--> E:\Firmware\EC21AUTFAR02A07M4G\EC21AUTFAR02A07M4G\update\NPRG9x07.mbn
+2017-8-2_17:50:18 <--> SA download re-start
+2017-8-2_17:50:18 <--> DL Norm Switching ......
+2017-8-2_17:50:26 <--> E:\Firmware\EC21AUTFAR02A07M4G\EC21AUTFAR02A07M4G\update\partition.mbn
+2017-8-2_17:50:26 <--> Download partition table file finished
+2017-8-2_17:57:47 <--> PASS, FW upgrade success.
+2017-10-25_9:41:46 <--> Version-V4.5.1
+2017-10-25_9:41:46 <--> Open com port 40......
+2017-10-25_9:41:46 <--> Detect and DL SA ......
+2017-10-25_9:42:0 <--> SA download start auto
+2017-10-25_9:42:0 <--> DL SA NORM
+2017-10-25_9:42:0 <--> E:\Firmware\EC25AUTLFAR06A03V02M4G_factory\EC25AUTLFAR06A03V02M4G_factory\update\NPRG9x07.mbn
+2017-10-25_9:42:5 <--> SA download re-start
+2017-10-25_9:42:5 <--> DL Norm Switching ......
+2017-10-25_9:42:13 <--> E:\Firmware\EC25AUTLFAR06A03V02M4G_factory\EC25AUTLFAR06A03V02M4G_factory\update\partition.mbn
+2017-10-25_9:42:13 <--> Download partition table file finished
+2017-10-25_9:50:28 <--> PASS, FW upgrade success.
+2017-10-25_9:58:16 <--> Version-V4.5.1
+2017-10-25_9:58:27 <--> Version-V4.5.1
+2018-7-11_9:53:35 <--> Version-V4.13
+2020-3-30_15:47:19 <--> Version-V4.13
+2020-3-30_15:47:19 <--> Open com port 70......
+2020-3-30_15:47:19 <--> Detect and DL SA ......
+2020-3-30_15:47:43 <--> FAIL, Ping_DLoad_Port_MDM9x07 timeout
+2020-3-30_15:49:24 <--> Version-V4.13
+2020-3-30_15:49:24 <--> Open com port 71......
+2020-3-30_15:49:24 <--> Detect and DL SA ......
+2020-3-30_15:49:38 <--> SA download start auto
+2020-3-30_15:49:38 <--> DL SA NORM
+2020-3-30_15:49:38 <--> I:\1_Project\__2020\20200309_SKPlanet\By M2M\EC25EFAR04A03M4G_SKT\update\NPRG9x07.mbn
+2020-3-30_15:49:43 <--> SA download re-start
+2020-3-30_15:49:43 <--> DL Norm Switching ......
+2020-3-30_15:49:51 <--> I:\1_Project\__2020\20200309_SKPlanet\By M2M\EC25EFAR04A03M4G_SKT\update\partition.mbn
+2020-3-30_15:49:56 <--> Download partition table file finished
+2020-3-30_15:58:2 <--> PASS, FW upgrade success.
+2020-4-3_8:57:43 <--> Version-V4.13
+2020-4-3_8:57:43 <--> Open com port 84......
+2020-4-3_8:57:43 <--> Detect and DL SA ......
+2020-4-3_8:57:57 <--> SA download start auto
+2020-4-3_8:57:57 <--> DL SA NORM
+2020-4-3_8:57:57 <--> I:\1_Project\__2020\20200309_SKPlanet\By M2M\EC25EFAR06A03M4G_SKT_01.003.01.003\update\NPRG9x07.mbn
+2020-4-3_8:58:1 <--> SA download re-start
+2020-4-3_8:58:1 <--> DL Norm Switching ......
+2020-4-3_8:58:18 <--> FAIL, Confirm dynamic com port:84 [DL Re-Start]
+2020-4-3_9:4:27 <--> Version-V4.13
+2020-4-3_9:4:27 <--> Open com port 85......
+2020-4-3_9:4:27 <--> Detect and DL SA ......
+2020-4-3_9:4:51 <--> FAIL, Ping_DLoad_Port_MDM9x07 timeout
+2020-4-3_9:5:3 <--> Version-V4.13
+2020-4-3_9:5:3 <--> Open com port 84......
+2020-4-3_9:5:3 <--> Detect and DL SA ......
+2020-4-3_9:5:17 <--> SA download start auto
+2020-4-3_9:5:17 <--> DL SA NORM
+2020-4-3_9:5:17 <--> I:\1_Project\__2020\20200309_SKPlanet\By M2M\EC25EFAR06A03M4G_SKT_01.003.01.003\update\NPRG9x07.mbn
+2020-4-3_9:5:21 <--> SA download re-start
+2020-4-3_9:5:21 <--> DL Norm Switching ......
+2020-4-3_9:5:38 <--> FAIL, Confirm dynamic com port:84 [DL Re-Start]
+2020-4-3_9:20:2 <--> Version-V4.13
+2020-4-3_9:20:2 <--> Open com port 85......
+2020-4-3_9:20:2 <--> Detect and DL SA ......
+2020-4-3_9:20:26 <--> FAIL, Ping_DLoad_Port_MDM9x07 timeout
+2020-4-3_9:53:3 <--> Version-V4.13
+2020-4-3_9:53:13 <--> Version-V4.13
+2020-4-3_9:53:40 <--> Version-V4.13
+2020-4-3_9:53:40 <--> Open com port 77......
+2020-4-3_9:53:40 <--> Detect and DL SA ......
+2020-4-3_9:53:54 <--> SA download start auto
+2020-4-3_9:53:54 <--> DL SA NORM
+2020-4-3_9:53:54 <--> I:\1_Project\__2020\20200309_SKPlanet\By M2M\EC25EFAR06A03M4G_SKT_01.003.01.003\update\NPRG9x07.mbn
+2020-4-3_9:53:59 <--> SA download re-start
+2020-4-3_9:53:59 <--> DL Norm Switching ......
+2020-4-3_9:54:16 <--> FAIL, Confirm dynamic com port:77 [DL Re-Start]

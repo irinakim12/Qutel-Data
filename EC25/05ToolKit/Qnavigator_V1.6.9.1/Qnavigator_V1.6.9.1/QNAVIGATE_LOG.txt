@@ -1,0 +1,43 @@
+[2019/03/01 09:19:51.123] Init
+[2019/03/01 09:19:53.438] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/04 14:13:07.272] Init
+[2019/03/04 14:13:09.537] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/05 09:25:14.804] Init
+[2019/03/05 09:25:15.893] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/05 09:42:58.408] Init
+[2019/03/05 09:42:59.214] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/05 13:11:43.246] Init
+[2019/03/05 13:11:46.386] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/05 13:20:06.582] Init
+[2019/03/05 13:20:08.580] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/13 10:58:20.117] Init
+[2019/03/13 10:58:22.427] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/13 16:48:26.299] Init
+[2019/03/13 16:48:28.596] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/13 16:50:27.120] Init
+[2019/03/13 16:50:30.337] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/18 16:37:14.239] Init
+[2019/03/18 16:37:19.925] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/18 20:06:46.658] 
++QCCID: 89860025128355119050
+
+OK
+AT+CLVL=?
+ERROR
+
+[2019/03/21 09:52:23.406] Init
+[2019/03/21 09:52:26.062] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/21 10:18:29.773] Init
+[2019/03/21 10:18:30.886] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/21 10:25:30.682] Init
+[2019/03/21 10:25:33.720] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/21 10:39:15.620] Init
+[2019/03/21 10:39:18.659] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/03/21 10:39:25.320] Init
+[2019/03/21 10:39:27.278] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/04/01 19:43:42.021] Init
+[2019/04/01 19:43:44.036] DialogCallEC20_Inner ThreadConnectModelInit
+[2019/04/24 10:43:22.568] Init
+[2019/04/24 10:43:25.352] DialogCallEC20_Inner ThreadConnectModelInit
+[2020/08/13 13:56:06.157] Init
+[2020/08/13 13:56:25.902] DialogCallEC20_Inner ThreadConnectModelInit

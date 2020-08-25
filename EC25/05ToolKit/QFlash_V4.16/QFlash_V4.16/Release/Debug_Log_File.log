@@ -1,0 +1,120 @@
+2020-1-20_13:44:32 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 erase f_version
+2020-1-20_13:44:34 <--> < usb get ok >
+erasing 'f_version'...
+OKAY [  2.198s]
+finished. total time: 2.198s
+
+2020-1-20_13:44:34 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash ptable D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\ptable.bin  2>&1
+2020-1-20_13:44:35 <--> < usb get ok >
+sending 'ptable' (2 KB)...
+OKAY [  0.011s]
+writing 'ptable'...
+OKAY [  0.242s]
+finished. total time: 0.253s
+
+2020-1-20_13:44:35 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash m3image D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\bsp_mcore.bin  2>&1
+2020-1-20_13:44:35 <--> < usb get ok >
+sending 'm3image' (51 KB)...
+OKAY [  0.012s]
+writing 'm3image'...
+OKAY [  0.283s]
+finished. total time: 0.295s
+
+2020-1-20_13:44:35 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash fastboot D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\fastboot.img  2>&1
+2020-1-20_13:44:36 <--> < usb get ok >
+sending 'fastboot' (183 KB)...
+OKAY [  0.017s]
+writing 'fastboot'...
+OKAY [  0.517s]
+finished. total time: 0.534s
+
+2020-1-20_13:44:36 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash kernel D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\boot.img  2>&1
+2020-1-20_13:44:47 <--> < usb get ok >
+sending 'kernel' (5540 KB)...
+OKAY [  0.232s]
+writing 'kernel'...
+OKAY [ 10.517s]
+finished. total time: 10.750s
+
+2020-1-20_13:44:47 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash recovery D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\boot.img  2>&1
+2020-1-20_13:44:58 <--> < usb get ok >
+sending 'recovery' (5540 KB)...
+OKAY [  0.242s]
+writing 'recovery'...
+OKAY [ 10.504s]
+finished. total time: 10.746s
+
+2020-1-20_13:44:58 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash system D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\system.ubi  2>&1
+2020-1-20_13:45:37 <--> < usb get ok >
+sending 'system' (20224 KB)...
+OKAY [  0.838s]
+writing 'system'...
+OKAY [ 37.621s]
+finished. total time: 38.459s
+
+2020-1-20_13:45:37 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash online D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\online.ubi  2>&1
+2020-1-20_13:45:41 <--> < usb get ok >
+sending 'online' (2048 KB)...
+OKAY [  0.101s]
+writing 'online'...
+OKAY [  3.874s]
+finished. total time: 3.975s
+
+2020-1-20_13:45:41 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash recoveryfs D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\recoveryfs.ubi  2>&1
+2020-1-20_13:45:54 <--> < usb get ok >
+sending 'recoveryfs' (6656 KB)...
+OKAY [  0.284s]
+writing 'recoveryfs'...
+OKAY [ 12.299s]
+finished. total time: 12.584s
+
+2020-1-20_13:45:54 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash dts D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\modem_dt.img  2>&1
+2020-1-20_13:45:54 <--> < usb get ok >
+sending 'dts' (86 KB)...
+OKAY [  0.013s]
+writing 'dts'...
+OKAY [  0.303s]
+finished. total time: 0.316s
+
+2020-1-20_13:45:54 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash hifi D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\hifi.bin  2>&1
+2020-1-20_13:45:59 <--> < usb get ok >
+sending 'hifi' (1680 KB)...
+OKAY [  0.077s]
+writing 'hifi'...
+OKAY [  3.353s]
+finished. total time: 3.430s
+
+2020-1-20_13:45:59 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash nvdload D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\nv.bin  2>&1
+2020-1-20_13:46:2 <--> < usb get ok >
+sending 'nvdload' (1416 KB)...
+OKAY [  0.065s]
+writing 'nvdload'...
+OKAY [  2.862s]
+finished. total time: 2.928s
+
+2020-1-20_13:46:2 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 flash m3boot D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\m3boot.bin  2>&1
+2020-1-20_13:46:2 <--> < usb get ok >
+sending 'm3boot' (8 KB)...
+OKAY [  0.010s]
+writing 'm3boot'...
+OKAY [  0.261s]
+finished. total time: 0.271s
+
+2020-1-20_13:46:2 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\fastboot.exe  -i 0x12d1 reboot-bootloader  2>&1
+2020-1-20_13:46:3 <--> < usb get ok >
+rebooting into bootloader...
+OKAY [  0.228s]
+finished. total time: 0.228s
+
+2020-1-20_14:43:57 <--> cmd.exe /c D:\2_Code\QFlash_V4.16_Ext_EC200H\Release\NB-IoT\1\burn.exe D:\4_Firmware\EC200HCNAAR01A01M1G_DEBUG0116_factory\EC200HCNAAR01A01M1G_DEBUG0116_factory\update\usbloader.bin
+2020-1-20_14:43:59 <--> ------------------------------------------------------------------------
+
+ports number :  1
+Starting at: Mon Jan 20 14:43:58 2020
+thread number : 0 ,Find Device on : COM51
+COM51 : Download RAMInit --> 
+COM51 : Download BOOTLOADER --> 
+All done at : %s Mon Jan 20 14:43:59 2020
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,56 @@
+------------------------------------------------------------------------
+
+ports number :  1
+Starting at: Thu Dec  5 14:22:14 2019
+thread number : 0 ,Find Device on : COM51
+COM51 : Download RAMInit --> 
+COM51 : Download BOOTLOADER --> 
+All done at : %s Thu Dec  5 14:22:17 2019
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+ports number :  1
+Starting at: Thu Dec  5 14:33:43 2019
+thread number : 0 ,Find Device on : COM33
+COM33 : Download RAMInit --> 
+COM33 : Download BOOTLOADER --> 
+All done at : %s Thu Dec  5 14:33:46 2019
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+ports number :  1
+Starting at: Sun Dec  8 12:39:26 2019
+thread number : 0 ,Find Device on : COM51
+COM51 : Download RAMInit --> 
+COM51 : Download BOOTLOADER --> 
+All done at : %s Sun Dec  8 12:39:29 2019
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+ports number :  1
+Starting at: Thu Jan  2 19:11:52 2020
+thread number : 0 ,Find Device on : COM51
+COM51 : Download RAMInit --> 
+COM51 : Download BOOTLOADER --> 
+All done at : %s Thu Jan  2 19:11:52 2020
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+Can't find port,Press the FORCE_LOAD button on the board and reset the board. 
+	Then,the system enters the USB boot mode of OnChipRom.
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+ports number :  1
+Starting at: Mon Jan 20 13:43:31 2020
+thread number : 0 ,Find Device on : COM51
+COM51 : Download RAMInit --> 
+COM51 : Download BOOTLOADER --> 
+All done at : %s Mon Jan 20 13:43:32 2020
+
+------------------------------------------------------------------------

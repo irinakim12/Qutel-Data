@@ -1,0 +1,150 @@
+
+19:35:47: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+D:\2_Code\Quectel_Customer_FW_Download_Tool_20181201\Release_Multi_Upgrade\QCMM\CH1\fh_loader.exe --port=\\.\COM7 --reset --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=emmc 
+************************************************
+
+19:35:47: DEBUG: Binary build date: Apr 27 2018 @ 03:04:29
+
+19:35:47: DEBUG: Build Version: 18.04.27.03.04.29
+
+19:35:47: INFO: Current working dir (cwd): D:\2_Code\Quectel_Customer_FW_Download_Tool_20181201\Release_Multi_Upgrade\
+19:35:47: INFO: Showing network mappings to allow debugging
+19:35:47: DEBUG: 会记录新的网络连接。
+
+19:35:47: DEBUG: 
+
+19:35:47: DEBUG: 
+
+19:35:47: DEBUG: 状态       本地        远程                      网络
+
+19:35:47: DEBUG: 
+
+19:35:47: DEBUG: -------------------------------------------------------------------------------
+
+19:35:47: DEBUG: OK           P:        \\192.168.11.252\person\jack.zhu 
+
+19:35:47: DEBUG:                                                 Microsoft Windows Network
+
+19:35:47: DEBUG: OK           Z:        \\192.168.11.252\quectel  Microsoft Windows Network
+
+19:35:47: DEBUG: 命令成功完成。
+
+19:35:47: DEBUG: 
+
+19:35:47: DEBUG: User set ZLPAWAREHOST to 1
+
+19:35:47: INFO: User wants to talk to port '\\.\COM7'
+19:35:47: DEBUG: port_fd=0xDC
+
+19:35:47: INFO: Took       0.00000000 seconds to open port
+19:35:47: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+19:35:47: INFO: If  you don't want this, use --dontsorttags
+
+19:35:47: INFO: Sending <configure>
+19:35:47: DEBUG: CHANNEL DATA (P0000) (H00202) (    228 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<configure MemoryName="emmc" Verbose="0" AlwaysValidate="0" MaxDigestTableSizeInBytes="8192" MaxPayloadSizeToTargetInBytes="1048576" ZlpAwareHost="1" SkipStorageInit="0" />
+</data>
+
+============================================================================================================
+
+19:35:47: DEBUG: CharsInBuffer=0 Trying to read from USB 8192 bytes
+19:35:47: DEBUG: CHANNEL DATA (239 bytes) <-- TARGET to HOST
+19:35:47: DEBUG: CharsInBuffer = 239
+19:35:47: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 239 bytes
+
+19:35:47: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+19:35:47: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+19:35:47: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+19:35:47: DEBUG: printBuffer:6058 72 65 73 70 6F 6E 73 65 20 76 61 6C 75 65 3D 22 response value="
+19:35:47: DEBUG: printBuffer:6058 4E 41 4B 22 20 4D 65 6D 6F 72 79 4E 61 6D 65 3D NAK" MemoryName=
+19:35:47: DEBUG: printBuffer:6058 22 4E 41 4E 44 22 20 4D 61 78 50 61 79 6C 6F 61 "NAND" MaxPayloa
+19:35:47: DEBUG: printBuffer:6058 64 53 69 7A 65 46 72 6F 6D 54 61 72 67 65 74 49 dSizeFromTargetI
+19:35:47: DEBUG: printBuffer:6058 6E 42 79 74 65 73 3D 22 32 30 34 38 22 20 4D 61 nBytes="2048" Ma
+19:35:47: DEBUG: printBuffer:6058 78 50 61 79 6C 6F 61 64 53 69 7A 65 54 6F 54 61 xPayloadSizeToTa
+19:35:47: DEBUG: printBuffer:6058 72 67 65 74 49 6E 42 79 74 65 73 3D 22 31 36 33 rgetInBytes="163
+19:35:47: DEBUG: printBuffer:6058 38 34 22 20 4D 61 78 50 61 79 6C 6F 61 64 53 69 84" MaxPayloadSi
+19:35:47: DEBUG: printBuffer:6058 7A 65 54 6F 54 61 72 67 65 74 49 6E 42 79 74 65 zeToTargetInByte
+19:35:47: DEBUG: printBuffer:6058 73 53 75 70 70 6F 72 74 65 64 3D 22 31 36 33 38 sSupported="1638
+19:35:47: DEBUG: printBuffer:6058 34 22 20 54 61 72 67 65 74 4E 61 6D 65 3D 22 39 4" TargetName="9
+19:35:47: DEBUG: printBuffer:6058 78 30 37 22 20 2F 3E 0A 3C 2F 64 61 74 61 3E    x07" />.</data>
+19:35:47: DEBUG: printBuffer:6071 
+
+
+19:35:47: DEBUG: XML FILE (239 bytes): CharsInBuffer=239-239=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="NAK" MemoryName="NAND" MaxPayloadSizeFromTargetInBytes="2048" MaxPayloadSizeToTargetInBytes="16384" MaxPayloadSizeToTargetInBytesSupported="16384" TargetName="9x07" />
+</data>
+-------------------------------------------------------------------------------------------
+
+19:35:47: DEBUG: Response was 'NAK'
+19:35:47: INFO: fh.attrs.MaxPayloadSizeToTargetInBytes = 16384
+19:35:47: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+19:35:47: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+19:35:47: INFO: Sending <power>
+19:35:47: DEBUG: CHANNEL DATA (P0001) (H00203) (     99 bytes) - HOST TO TARGET -->
+===========================================================================================================
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<power DelayInSeconds="10" value="reset" />
+</data>
+
+============================================================================================================
+
+19:35:47: DEBUG: CharsInBuffer=0 Trying to read from USB 2048 bytes
+19:35:47: DEBUG: CHANNEL DATA (193 bytes) <-- TARGET to HOST
+19:35:47: DEBUG: CharsInBuffer = 193
+19:35:47: DEBUG: printBuffer:5981 PRETTYPRINT Buffer is 193 bytes
+
+19:35:47: DEBUG: printBuffer:6058 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D 22 31 <?xml version="1
+19:35:47: DEBUG: printBuffer:6058 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 55 54 .0" encoding="UT
+19:35:47: DEBUG: printBuffer:6058 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E 0A 3C F-8" ?>.<data>.<
+19:35:47: DEBUG: printBuffer:6058 6C 6F 67 20 76 61 6C 75 65 3D 22 49 6E 73 69 64 log value="Insid
+19:35:47: DEBUG: printBuffer:6058 65 20 68 61 6E 64 6C 65 50 6F 77 65 72 28 29 20 e handlePower() 
+19:35:47: DEBUG: printBuffer:6058 2D 20 52 65 71 75 65 73 74 65 64 20 50 4F 57 45 - Requested POWE
+19:35:47: DEBUG: printBuffer:6058 52 5F 52 45 53 45 54 22 2F 3E 0A 3C 2F 64 61 74 R_RESET"/>.</dat
+19:35:47: DEBUG: printBuffer:6058 61 3E 3C 3F 78 6D 6C 20 76 65 72 73 69 6F 6E 3D a><?xml version=
+19:35:47: DEBUG: printBuffer:6058 22 31 2E 30 22 20 65 6E 63 6F 64 69 6E 67 3D 22 "1.0" encoding="
+19:35:47: DEBUG: printBuffer:6058 55 54 46 2D 38 22 20 3F 3E 0A 3C 64 61 74 61 3E UTF-8" ?>.<data>
+19:35:47: DEBUG: printBuffer:6058 0A 3C 72 65 73 70 6F 6E 73 65 20 76 61 6C 75 65 .<response value
+19:35:47: DEBUG: printBuffer:6058 3D 22 41 43 4B 22 20 2F 3E 0A 3C 2F 64 61 74 61 ="ACK" />.</data
+19:35:47: DEBUG: printBuffer:6058 3E                                              >
+19:35:47: DEBUG: printBuffer:6071 
+
+
+19:35:47: DEBUG: XML FILE (114 bytes): CharsInBuffer=193-114=79
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<log value="Inside handlePower() - Requested POWER_RESET"/>
+</data>
+-------------------------------------------------------------------------------------------
+
+19:35:47: INFO: TARGET SAID: 'Inside handlePower() - Requested POWER_RESET'
+19:35:47: DEBUG: XML FILE (79 bytes): CharsInBuffer=79-79=0
+-------------------------------------------------------------------------------------------
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+<response value="ACK" />
+</data>
+-------------------------------------------------------------------------------------------
+
+19:35:47: DEBUG: Response was 'ACK'
+19:35:47: DEBUG: Got the ACK
+19:35:47: INFO: ==============================================================
+19:35:47: INFO: Files used and their paths
+19:35:47: INFO:   1 'D:\2_Code\Quectel_Customer_FW_Download_Tool_20181201\Release_Multi_Upgrade\port_trace.txt'
+19:35:47: INFO:      _             (done)
+19:35:47: INFO:     | |                 
+19:35:47: INFO:   __| | ___  _ __   ___ 
+19:35:47: INFO:  / _` |/ _ \| '_ \ / _ \
+19:35:47: INFO: | (_| | (_) | | | |  __/
+19:35:47: INFO:  \__,_|\___/|_| |_|\___|
+19:35:47: INFO: {All Finished Successfully}
+
+19:35:47: INFO: FILE ACCESS SLOW!!     0.00 B in  0.015 seconds (    0.00 Bps) --- Overall to target  0.047 seconds (0.00 Bps)

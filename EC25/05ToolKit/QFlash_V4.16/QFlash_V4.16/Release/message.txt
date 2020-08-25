@@ -1,0 +1,30 @@
+------------------------------------------------------------------------
+
+ports number :  1
+Starting at: Tue Dec 24 19:11:42 2019
+thread number : 0 ,Find Device on : COM51
+COM51 : Download RAMInit --> 
+COM51 : Download BOOTLOADER --> 
+All done at : %s Tue Dec 24 19:11:45 2019
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+ports number :  1
+Starting at: Wed Dec 25 13:34:20 2019
+thread number : 0 ,Find Device on : COM51
+COM51 : Download RAMInit --> 
+COM51 : Download BOOTLOADER --> 
+All done at : %s Wed Dec 25 13:34:22 2019
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+ports number :  1
+Starting at: Mon Jan 20 14:43:58 2020
+thread number : 0 ,Find Device on : COM51
+COM51 : Download RAMInit --> 
+COM51 : Download BOOTLOADER --> 
+All done at : %s Mon Jan 20 14:43:59 2020
+
+------------------------------------------------------------------------

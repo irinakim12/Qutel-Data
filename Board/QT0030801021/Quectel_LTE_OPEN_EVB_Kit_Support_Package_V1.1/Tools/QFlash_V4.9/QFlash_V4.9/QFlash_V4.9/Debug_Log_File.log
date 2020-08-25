@@ -1,0 +1,2656 @@
+2018-8-21_10:48:43 <--> DM 109
+2018-8-21_10:48:46 <--> 2018-8-21_10:48:54 <--> QDLoader 102
+2018-8-21_10:48:54 <--> EDL port 102
+2018-8-21_10:48:54 <--> Download firehose file ......
+2018-8-21_10:48:54 <--> cmd.exe /c F:\code\QFlash_V4.10_Ext\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM102 -s 13:"E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\prog_nand_firehose_9x06.mbn"
+2018-8-21_10:48:56 <--> DL-Firehose Binary build date: Oct 31 2016 @ 22:51:05
+2018-8-21_10:48:56 <--> DL-Firehose QSAHARASERVER CALLED LIKE THIS: 'F:\code\QFlash_V4.10_Ext\Release\QCMM\CH1\QSaharaServer.ex'Current working dir: F:\code\QFlash_V4.10_Ext\Release
+2018-8-21_10:48:56 <--> DL-Firehose Sahara mappings:
+2018-8-21_10:48:56 <--> DL-Firehose 2: amss.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 6: apps.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 8: dsp1.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 10: dbl.m
+2018-8-21_10:48:56 <--> DL-Firehose bn
+2018-8-21_10:48:56 <--> DL-Firehose 11: osbl.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 12: dsp2.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 16: efs1.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 17: efs2.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 20: efs3.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 21: sbl1.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 22: sbl2.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 23: rpm.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 25: tz.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 28: dsp3.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 29: acdb.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 30: wdt.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 31: mba.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 13: E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\B
+2018-8-21_10:48:56 <--> DL-Firehose G96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\prog_nand_firehose_9x06.mbn
+2018-8-21_10:48:56 <--> DL-Firehose 10:48:56: Requested ID 13, file: "E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814
+2018-8-21_10:48:56 <--> DL-Firehose A_FACTORY\update\firehose\prog_nand_firehose_9x06.mbn"
+2018-8-21_10:48:56 <--> DL-Firehose 10:48:56: 125784 bytes transferred in 0.110000 seconds (1.0905MBps)
+2018-8-21_10:48:56 <--> DL-Firehose 10:48:56: File transferred successfully
+2018-8-21_10:48:56 <--> DL-Firehose NOTE: Target requested image 13 which is DeviceProgrammer. Forcing QUIT. This 
+2018-8-21_10:48:56 <--> DL-Firehose is by design, ** All is well ** SUCCESS!!
+2018-8-21_10:48:56 <--> DL-Firehose 10:48:56: Sahara protocol completed
+2018-8-21_10:48:56 <--> DL-Firehose, wait for 3 seconds ......
+2018-8-21_10:48:58 <--> DL-Firehose, wait for 2 seconds ......
+2018-8-21_10:48:59 <--> DL-Firehose, wait for 1 seconds ......
+2018-8-21_10:49:0 <--> Download rawprogram file ......
+2018-8-21_10:49:0 <--> cmd.exe /c F:\code\QFlash_V4.10_Ext\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM102 --sendxml=rawprogram_nand_p2K_b128K_factory.xml --search_path="E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose" --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC
+2018-8-21_10:49:1 <--> 2018-8-21_10:49:1 <--> 
+
+2018-8-21_10:49:1 <--> 2018-8-21_10:49:1 <--> 
+
+2018-8-21_10:49:1 <--> 
+Base Version: 16.10.28.15.28
+Binary build date: Oct 31 2016 @ 22:51:02
+Incremental Build version: 16.10.31.22.51.02
+
+10:49:01: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+F:\code\QFlash_V4.10_Ext\Re
+2018-8-21_10:49:1 <--> lease\QCMM\CH1\fh_loader.exe --port=\\.\COM102 --sendxml=rawprogram_nand_p2K_b128K_factory.xml --search_path=E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose --n
+2018-8-21_10:49:1 <--> oprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC 
+************************************************
+
+10:49:01: INFO: Current working dir (cwd): F:\code\QFlash_V4.10_Ext\Release\
+10:49:01: INFO: Showing network mappings to allow debugg
+2018-8-21_10:49:1 <--> ing
+10:49:01: INFO: 
+
+
+
+10:49:01: INFO: Trying to store 'rawprogram_nand_p2K_b128K_factory.xml' in string table
+10:49:01: INFO: Looking for file 'rawprogram_nand_p2K_b128K_factory.xml'
+10:49:01: INFO: User wants to talk to port '\\.\COM102'
+10:49:0
+2018-8-21_10:49:1 <--> 1: INFO: Took       0.00000000 seconds to open port
+10:49:01: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+10:49:01: INFO: If  you don't want this, use --dontsorttags
+
+10:49:01: INFO: Looking for file 'partition_co
+2018-8-21_10:49:1 <--> mplete_p2K_b128K.mbn'
+10:49:01: INFO: SectorSizeInBytes changed to 2048
+10:49:01: INFO: Looking for file '..\cefs.mbn'
+10:49:01: INFO: Looking for file '..\tz.mbn'
+10:49:01: INFO: Looking for file '..\mba.mbn'
+10:49:01: INFO: Looking for file '..\acdb
+2018-8-21_10:49:1 <--> .mbn'
+10:49:01: INFO: Looking for file '..\rpm.mbn'
+10:49:01: INFO: Looking for file '..\qdsp6sw.mbn'
+10:49:01: INFO: Looking for file '..\apps.mbn'
+10:49:01: INFO: Looking for file '..\efs2apps.mbn'
+10:49:01: INFO: Looking for file '..\sbl1.mbn'
+10:
+2018-8-21_10:49:1 <--> 49:01: INFO: 
+
+Total to be tansferd with <program> or <read> is 28.02 MB
+
+
+10:49:01: INFO: Sending <configure>
+
+10:49:01: INFO: TARGET SAID: 'Supported Functions: program configure power benchmark read getstorageinfo erase nop '
+10:49:01: INFO: fh.
+2018-8-21_10:49:1 <--> attrs.MaxPayloadSizeToTargetInBytes = 16384
+10:49:01: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+10:49:01: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+2018-8-21_10:49:1 <--> 
+10:49:01: INFO:                         Issuing Erase                       
+10:49:01: INFO:  _____              _               _____                   
+10:49:01: INFO: |_   _|            (_)             |  ___|                  
+10:49:01: INFO:   | 
+2018-8-21_10:49:1 <--> | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:01: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:01: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:01: INFO:  \___/___/___/\__,_|_|_| |
+2018-8-21_10:49:1 <--> _|\__, | \____/_|  \__,_|___/\___|
+10:49:01: INFO:                              __/ |                          
+10:49:01: INFO:                             |___/ 
+
+
+
+10:49:01: INFO: TARGET SAID: 'start_sector = 0 and num_partition_sectors =0x280)'
+1
+2018-8-21_10:49:1 <--> 0:49:01: INFO: 
+
+
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFUL
+
+
+10:49:01: INFO:                         Issuing Erase                       
+10:49:01: INFO:  _____              _              
+2018-8-21_10:49:1 <-->  _____                   
+10:49:01: INFO: |_   _|            (_)             |  ___|                  
+10:49:01: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:01: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ 
+2018-8-21_10:49:1 <--> _ \
+10:49:01: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:01: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:01: INFO:                              __/ |                          
+10:49:01: INFO:  
+2018-8-21_10:49:1 <-->                            |___/ 
+
+
+
+10:49:01: INFO: TARGET SAID: 'start_sector = 640 and num_partition_sectors =0x280)'
+10:49:01: INFO: 
+
+
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFUL
+
+
+10
+2018-8-21_10:49:1 <--> :49:01: INFO:                         Issuing Erase                       
+10:49:01: IN
+2018-8-21_10:49:1 <--> FO:  _____              _               _____                   
+10:49:01: INFO: |_   _|            (_)             |  ___|                  
+10:49:01: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:01: INFO:   | |/ __/ __| | |
+2018-8-21_10:49:1 <-->  | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:01: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:01: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:01: INFO:                              __/ |      
+2018-8-21_10:49:1 <-->                     
+10:49:01: INFO:                             |___/ 
+
+
+
+10:49:01: INFO: TARGET SAID: 'start_sector = 4864 and num_partition_sectors =0x2a00)'
+10:49:01: INFO: 
+
+
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFUL
+2018-8-21_10:49:1 <--> 
+10:49:01: INFO: ERASE SUCCESSFUL
+
+
+10:49:01: INFO:                         Issuing Erase                       
+10:49:01: INFO:  _____              _               _____                   
+10:49:01: INFO: |_   _|            (_)             |  ___|   
+2018-8-21_10:49:1 <-->                
+10:49:01: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:01: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:01: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49
+2018-8-21_10:49:1 <--> :01: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:01: INFO:                              __/ |                          
+10:49:01: INFO:                             |___/ 
+
+
+
+10:49:01: INFO: TARGET SAID: 'start_sector = 15
+2018-8-21_10:49:1 <--> 616 and num_partition_sectors =0x300)'
+10:49:01: INFO: 
+
+
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFUL
+
+
+10:49:01: INFO:                         Issuing Erase                       
+10:49:01: 
+2018-8-21_10:49:1 <--> INFO:  _____              _               _____                   
+10:49:01: INFO: |_   _|            (_)             |  ___|                  
+10:49:01: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:01: INFO:   | |/ __/ __| |
+2018-8-21_10:49:1 <-->  | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:01: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:01: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:01: INFO:                              __/ |    
+2018-8-21_10:49:1 <-->                       
+10:49:01: INFO:                             |___/ 
+
+
+
+10:49:01: INFO: TARGET SAID: 'start_sector = 16384 and num_partition_sectors =0x300)'
+10:49:01: INFO: 
+
+
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFU
+2018-8-21_10:49:1 <--> L
+10:49:01: INFO: ERASE SUCCESSFUL
+
+
+10:49:01: INFO:                         Issuing Erase                       
+10:49:01: INFO:  _____              _               _____                   
+10:49:01: INFO: |_   _|            (_)             |  ___| 
+2018-8-21_10:49:1 <-->                  
+10:49:01: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:01: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:01: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:
+2018-8-21_10:49:1 <--> 49:01: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:01: INFO:                              __/ |                          
+10:49:01: INFO:                             |___/ 
+
+
+
+10:49:01: INFO: TARGET SAID: 'start_sector = 
+2018-8-21_10:49:1 <--> 17152 and num_partition_sectors =0x180)'
+10:49:01: INFO: 
+
+
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFUL
+
+
+10:49:01: INFO:                         Issuing Erase                       
+10:49:01
+2018-8-21_10:49:1 <--> : INFO:  _____              _               _____                   
+10:49:01: INFO: |_   _|            (_)             |  ___|                  
+10:49:01: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:01: INFO:   | |/ __/ __|
+2018-8-21_10:49:1 <-->  | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:01: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:01: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:01: INFO:                              __/ |  
+2018-8-21_10:49:1 <-->                         
+10:49:01: INFO:                             |___/ 
+
+
+
+10:49:01: I
+2018-8-21_10:49:2 <--> NFO: TARGET SAID: 'start_sector = 17536 and num_partition_sectors =0x200)'
+10:49:01: INFO: 
+
+
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFUL
+10:49:01: INFO: ERASE SUCCESSFUL
+
+
+10:49:01: INFO:                         Issuing Eras
+2018-8-21_10:49:2 <--> e                       
+10:49:01: INFO:  _____              _               _____                   
+10:49:01: INFO: |_   _|            (_)             |  ___|                  
+10:49:01: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  __
+2018-8-21_10:49:2 <--> _ 
+10:49:01: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:01: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:01: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:01: INFO:   
+2018-8-21_10:49:2 <-->                            __/ |                          
+10:49:01: INFO:                             |___/ 
+
+
+
+10:49:01: INFO: TARGET SAID: 'start_sector = 18048 and num_partition_sectors =0x3800)'
+10:49:02: INFO: 
+
+
+10:49:02: INFO: ERASE SUCCES
+2018-8-21_10:49:2 <--> SFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+
+
+10:49:02: INFO:                         Issuing Erase                       
+10:49:02: INFO:  _____              _               _____                   
+10:49:02: INFO: |_   _
+2018-8-21_10:49:2 <--> |            (_)             |  ___|                  
+10:49:02: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:02: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:02: INFO:  _| |\__ \__ \ |_| | | | | |
+2018-8-21_10:49:2 <-->  (_| | | |__| | | (_| \__ \  __/
+10:49:02: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:02: INFO:                              __/ |                          
+10:49:02: INFO:                             |___/ 
+
+
+
+10:49:02
+2018-8-21_10:49:2 <--> : INFO: TARGET SAID: 'start_sector = 32384 and num_partition_sectors =0xd00)'
+10:49:02: INFO: 
+
+
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+
+
+10:49:02: INFO:                         Issuing E
+2018-8-21_10:49:2 <--> rase                       
+10:49:02: INFO:  _____              _               _____                   
+10:49:02: INFO: |_   _|            (_)             |  ___|                  
+10:49:02: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___ 
+2018-8-21_10:49:2 <-->  ___ 
+10:49:02: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:02: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:02: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:02: INFO:
+2018-8-21_10:49:2 <-->                               __/ |                          
+10:49:02: INFO:                             |___/ 
+
+
+
+10:49:02: INFO: TARGET SAID: 'start_sector = 35712 and num_partition_sectors =0x3800)'
+10:49:02: INFO: 
+
+
+10:49:02: INFO: ERASE SUC
+2018-8-21_10:49:2 <--> CESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+
+
+10:49:02: INFO:                         Issuing Erase                       
+10:49:02: INFO:  _____              _               _____                   
+10:49:02: INFO: |_ 
+2018-8-21_10:49:2 <-->   _|            (_)             |  ___|                  
+10:49:02: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:02: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:02: INFO:  _| |\__ \__ \ |_| | | | 
+2018-8-21_10:49:2 <--> | | (_| | | |__| | | (_| \__ \  __/
+10:49:02: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:02: INFO:                              __/ |                          
+10:49:02: INFO:                             |___/ 
+
+
+
+10:49
+2018-8-21_10:49:2 <--> :02: INFO: TARGET SAID: 'start_sector = 50048 and num_partition_sectors =0x300)'
+10:49:02: INFO: 
+
+
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+
+
+10:49:02: INFO:                         Issuin
+2018-8-21_10:49:2 <--> g Erase                       
+10:49:02: INFO:  _____              _               _____                   
+10:49:02: INFO: |_   _|            (_)             |  ___|                  
+10:49:02: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ _
+2018-8-21_10:49:2 <--> __  ___ 
+10:49:02: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:02: 
+2018-8-21_10:49:2 <--> INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:02: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:02: INFO:                              __/ |                          
+10:49:02: INFO:                 
+2018-8-21_10:49:2 <-->             |___/ 
+
+
+
+10:49:02: INFO: TARGET SAID: 'start_sector = 50816 and num_partition_sectors =0x300)'
+10:49:02: INFO: 
+
+
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+
+
+10:49:02: INFO:
+2018-8-21_10:49:2 <-->                          Issuing Erase                       
+10:49:02: INFO:  _____              _               _____                   
+10:49:02: INFO: |_   _|            (_)             |  ___|                  
+10:49:02: INFO:   | | ___ ___ _   _ _
+2018-8-21_10:49:2 <-->  _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:02: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:02: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:02: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|
+2018-8-21_10:49:2 <-->   \__,_|___/\___|
+10:49:02: INFO:                              __/ |                          
+10:49:02: INFO:                             |___/ 
+
+
+
+10:49:02: INFO: TARGET SAID: 'start_sector = 51584 and num_partition_sectors =0x200)'
+10:49:02: INFO
+2018-8-21_10:49:2 <--> : 
+
+
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+
+
+10:49:02: INFO:                         Issuing Erase                       
+10:49:02: INFO:  _____              _               _____       
+2018-8-21_10:49:2 <-->             
+10:49:02: INFO: |_   _|            (_)             |  ___|                  
+10:49:02: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:02: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:02
+2018-8-21_10:49:2 <--> : INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:02: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:02: INFO:                              __/ |                          
+10:49:02: INFO:               
+2018-8-21_10:49:2 <-->               |___/ 
+
+
+
+10:49:02: INFO: TARGET SAID: 'start_sector = 52096 and num_partition_sectors =0xd00)'
+10:49:02: INFO: 
+
+
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+
+
+10:49:02: INF
+2018-8-21_10:49:2 <--> O:                         Issuing Erase                       
+10:49:02: INFO:  _____              _               _____                   
+10:49:02: INFO: |_   _|            (_)             |  ___|                  
+10:49:02: INFO:   | | ___ ___ _   _
+2018-8-21_10:49:2 <-->  _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:02: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:02: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:02: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/
+2018-8-21_10:49:2 <--> _|  \__,_|___/\___|
+10:49:02: INFO:                              __/ |                          
+10:49:02: INFO:                             |___/ 
+
+
+
+10:49:02: INFO: TARGET SAID: 'start_sector = 55424 and num_partition_sectors =0x180)'
+10:49:02: IN
+2018-8-21_10:49:2 <--> FO: 
+
+
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+
+
+10:49:02: INFO:                         Issuing Erase                       
+10:49:02: INFO:  _____              _               _____     
+2018-8-21_10:49:2 <-->               
+10:49:02: INFO: |_   _|            (_)             |  ___|                  
+10:49:02: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:02: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:
+2018-8-21_10:49:2 <--> 02: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:02: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:02: INFO:                              __/ |                          
+10:49:02: INFO:             
+2018-8-21_10:49:2 <-->                 |___/ 
+
+
+
+10:49:02: INFO: TARGET SAID: 'start_sector = 55808 and num_partition_sectors =0x200)'
+10:49:02: INFO: 
+
+
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+
+
+10:49:02: I
+2018-8-21_10:49:2 <--> NFO:                         Issuing Erase                       
+10:49:02: INFO:  _____            
+2018-8-21_10:49:3 <-->   _               _____                   
+10:49:02: INFO: |_   _|            (_)             |  ___|                  
+10:49:02: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:02: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __
+2018-8-21_10:49:3 <--> | '__/ _` / __|/ _ \
+10:49:02: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:02: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:02: INFO:                              __/ |                          
+
+2018-8-21_10:49:3 <--> 10:49:02: INFO:                             |___/ 
+
+
+
+10:49:02: INFO: TARGET SAID: 'start_sector = 56320 and num_partition_sectors =0x180)'
+10:49:02: INFO: 
+
+
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE
+2018-8-21_10:49:3 <-->  SUCCESSFUL
+
+
+10:49:02: INFO:                         Issuing Erase                       
+10:49:02: INFO:  _____              _               _____                   
+10:49:02: INFO: |_   _|            (_)             |  ___|                  
+10:49
+2018-8-21_10:49:3 <--> :02: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+10:49:02: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+10:49:02: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+10:49:02: INFO:  \___/___/_
+2018-8-21_10:49:3 <--> __/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+10:49:02: INFO:                              __/ |                          
+10:49:02: INFO:                             |___/ 
+
+
+
+10:49:02: INFO: TARGET SAID: 'start_sector = 56704 and num_partition_
+2018-8-21_10:49:3 <--> sectors =0x2280)'
+
+10:49:02: INFO: TARGET SAID: 'Skipping:	bad block 0x399'
+
+10:49:02: INFO: TARGET SAID: 'Skipping:	bad block 0x39a'
+
+10:49:02: INFO: TARGET SAID: 'Skipping:	bad block 0x39b'
+10:49:02: INFO: 
+
+
+10:49:02: INFO: ERASE SUCCESSFUL
+1
+2018-8-21_10:49:3 <--> 0:49:02: INFO: ERASE SUCCESSFUL
+10:49:02: INFO: ERASE SUCCESSFUL
+
+
+10:49:02: INFO: In handleProgram('partition_complete_p2K_b128K.mbn')
+10:49:02: INFO: Looking for file 'partition_complete_p2K_b128K.mbn'
+10:49:02: INFO: ==============================
+2018-8-21_10:49:3 <--> =========================
+10:49:02: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\partition_complete_p2K_b128K.mbn'}
+10:49:02: INFO:
+2018-8-21_10:49:3 <-->  {<program> (8.00 KB) 4 sectors needed at location 640 on LUN 0}
+10:49:02: INFO: =======================================================
+
+
+10:49:02: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+10:49:02: INFO: TARGET SAID: 'start_sector 640, last_sect
+2018-8-21_10:49:3 <--> or_address 644'
+
+10:49:02: INFO: FILE ACCESS SLOW!!    8.00 KB in  0.015 seconds ( 533.33 KBps) --- Overall to target  0.015 seconds (533.33 KBps)
+10:49:02: INFO: {percent files transferred   0.03%}
+
+10:49:02: INFO: TARGET SAID: 'Finished sector addre
+2018-8-21_10:49:3 <--> DL-Rawprogram( 0.03% ),  percent files transferred   0.03% 
+2018-8-21_10:49:3 <--> ss 640'
+10:49:02: INFO: 
+10:49:02: INFO: =======================================================
+10:49:02: INFO: ==================== {SUCCESS} ========================
+10:49:02: INFO: =======================================================
+
+
+10:49:
+2018-8-21_10:49:3 <--> 02: INFO: {percent files transferred   0.03%}
+10:49:02: INFO: In handleProgram('..\cefs.mbn')
+10:49:02: INFO: Looking for file '..\cefs.mbn'
+10:49:02: INFO: =======================================================
+10:49:02: INFO: {<program> FILE: 'E:\Fi
+2018-8-21_10:49:3 <--> rmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\cefs.mbn'}
+10:49:02: INFO: {<program> (524.00 KB) 262 sectors needed at location 4864 on LUN 0}
+10:49:02: INFO: 
+2018-8-21_10:49:3 <--> =======================================================
+
+
+10:49:02: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+10:49:02: INFO: TARGET SAID: 'start_sector 4864, last_sector_address 5126'
+
+10:49:03: INFO: FILE ACCESS SLOW!!  524.00 KB in  0.015 secon
+2018-8-21_10:49:3 <--> ds (  34.11 MBps) --- Overall to target  0.141 seconds (3.63 MBps)
+10:49:03: INFO: {percent files transferred   1.85%}
+
+10:49:03: INFO: TARGET SAID: 'Finished sector address 4864'
+10:49:03: INFO: 
+10:49:03: INFO: ======================================
+2018-8-21_10:49:3 <--> DL-Rawprogram( 1.85% ),  percent files transferred   1.85% 
+2018-8-21_10:49:3 <--> =================
+10:49:03: INFO: ==================== {SUCCESS} ======================
+2018-8-21_10:49:3 <--> ==
+10:49:03: INFO: =======================================================
+
+
+10:49:03: INFO: {percent files transferred   1.85%}
+10:49:03: INFO: In handleProgram('..\tz.mbn')
+10:49:03: INFO: Looking for file '..\tz.mbn'
+10:49:03: INFO: =============
+2018-8-21_10:49:3 <--> ==========================================
+10:49:03: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\tz.mbn'}
+10:49:03: INFO: {<pro
+2018-8-21_10:49:3 <--> gram> (538.50 KB) 270 sectors needed at location 15616 on LUN 0}
+10:49:03: INFO: =======================================================
+
+
+10:49:03: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+10:49:03: INFO: TARGET SAID: 'start_sector 15616, last_se
+2018-8-21_10:49:3 <--> ctor_address 15886'
+
+10:49:03: INFO: FILE ACCESS SLOW!!  540.00 KB in  0.015 seconds (  35.16 MBps) --- Overall to target  0.172 seconds (3.07 MBps)
+10:49:03: INFO: {percent files transferred   3.73%}
+
+10:49:03: INFO: TARGET SAID: 'Finished sector add
+2018-8-21_10:49:3 <--> DL-Rawprogram( 3.73% ),  percent files transferred   3.73% 
+2018-8-21_10:49:3 <--> ress 15616'
+10:49:03: INFO: 
+10:49:03: INFO: =======================================================
+10:49:03: INFO: ==================== {SUCCESS} ========================
+10:49:03: INFO: =======================================================
+
+
+10
+2018-8-21_10:49:3 <--> :49:03: INFO: {percent files transferred   3.73%}
+10:49:03: INFO: In handleProgram('..\mba.mbn')
+10:49:03: INFO: Looking for file '..\mba.mbn'
+10:49:03: INFO: =======================================================
+10:49:03: INFO: {<program> FILE: 'E:\
+2018-8-21_10:49:3 <--> Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\mba.mbn'}
+10:49:03: INFO: {<program> (240.34 KB) 121 sectors needed at location 16384 on LUN 0}
+10:49:03: INFO
+2018-8-21_10:49:3 <--> : =======================================================
+
+
+10:49:03: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+10:49:03: INFO: TARGET SAID: 'start_sector 16384, last_sector_address 16505'
+
+10:49:03: INFO: FILE ACCESS SLOW!!  242.00 KB in  0.015 s
+2018-8-21_10:49:3 <--> econds (  15.76 MBps) --- Overall to target  0.047 seconds (5.03 MBps)
+10:49:03: INFO: {percent files transferred   4.57%}
+
+10:49:03: INFO: TARGET SAID: 'Finished sector address 16384'
+10:49:03: INFO: 
+10:49:03: INFO: =================================
+2018-8-21_10:49:3 <--> DL-Rawprogram( 4.57% ),  percent files transferred   4.57% 
+2018-8-21_10:49:3 <--> ======================
+10:49:03: INFO: ==================== {SUCCESS} ========================
+10:49:03: INFO: =======================================================
+
+
+10:49:03: INFO: {percent files transferred   4.57%}
+10:49:03: INFO: In handleProg
+2018-8-21_10:49:3 <--> ram('..\acdb.mbn')
+10:49:03: INFO: Looking for file '..\acdb.mbn'
+10:49:03: INFO: =======================================================
+10:49:03: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A0
+2018-8-21_10:49:3 <--> 8M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\acdb.mbn'}
+10:49:03: INFO: {<program> (128.04 KB) 65 sectors needed at location 17152 on LUN 0}
+10:49:03: INFO: =======================================================
+
+
+10:49:03: INFO:
+2018-8-21_10:49:3 <-->  TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+10:49:03: INFO: TARGET SAID: 'start_sector 17152, last_sector_address 17217'
+
+10:49:03: INFO: FILE ACCESS SLOW!!  130.00 KB in  0.015 seconds (   8.46 MBps) --- Overall to target  0.063 seconds (2.02 MBps)
+10:49:
+2018-8-21_10:49:3 <--> 03: INFO: {percent files transferred   5.01%}
+
+10:49:03: INFO: TARGET SAID: 'Finished sector address 17152'
+10:49:03: INFO: 
+10:49:03: INFO: =======================================================
+10:49:03: INFO: ==================== {SUCCESS} =======
+2018-8-21_10:49:3 <--> DL-Rawprogram( 5.01% ),  percent files transferred   5.01% 
+2018-8-21_10:49:3 <--> =================
+10:49:03: INFO: =======================================================
+
+
+10:49:03: INFO: {percent files transferred   5.01%}
+10:49:03: INFO: In handleProgram('..\rpm.mbn')
+10:49:03: INFO: Looking for file '..\rpm.mbn'
+10:49:03: IN
+2018-8-21_10:49:3 <--> FO: =======================================================
+10:49:03: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\rpm.mbn'}
+10:
+2018-8-21_10:49:3 <--> 49:03: INFO: {<program> (153.02 KB) 77 sectors needed at location 17536 on LUN
+2018-8-21_10:49:12 <-->  0}
+10:49:03: INFO: =======================================================
+
+
+10:49:03: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+10:49:03: INFO: TARGET SAID: 'start_sector 17536, last_sector_address 17613'
+
+10:49:04: INFO: FILE ACCESS SLOW!!  15
+2018-8-21_10:49:12 <--> 4.00 KB in  0.015 seconds (  10.03 MBps) --- Overall to target  0.530 seconds (290.57 KBps)
+10:49:04: INFO: {percent files transferred   5.55%}
+
+10:49:04: INFO: TARGET SAID: 'Finished sector address 17536'
+10:49:04: INFO: 
+10:49:04: INFO: ============
+2018-8-21_10:49:12 <--> DL-Rawprogram( 5.55% ),  percent files transferred   5.55% 
+2018-8-21_10:49:12 <--> ===========================================
+10:49:04: INFO: ==================== {SUCCESS} ========================
+10:49:04: INFO: =======================================================
+
+
+10:49:04: INFO: {percent files transferred   5.55%}
+10:49:04
+2018-8-21_10:49:12 <--> : INFO: In handleProgram('..\qdsp6sw.mbn')
+10:49:04: INFO: Looking for file '..\qdsp6sw.mbn'
+10:49:04: INFO: =======================================================
+10:49:04: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BE
+2018-8-21_10:49:12 <--> TA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\qdsp6sw.mbn'}
+10:49:04: INFO: {<program> (22.33 MB) 11435 sectors needed at location 18048 on LUN 0}
+10:49:04: INFO: ============================================
+2018-8-21_10:49:12 <--> ===========
+
+
+10:49:04: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+10:49:04: INFO: TARGET SAID: 'start_sector 18048, last_sector_address 29483'
+
+10:49:06: INFO: FILE ACCESS SLOW!!    6.55 MB in  0.453 seconds (  14.45 MBps) --- Overall to target  2
+2018-8-21_10:49:12 <--> .012 seconds (3.25 MBps)
+10:49:06: INFO: {percent files transferred  28.91%}
+10:49:08: INFO: FILE ACCESS SLOW!!   13.27 MB in  0.952 seconds (  13.93 MBps) --- Overall to target  4.071 seconds (3.26 MBps)
+10:49:08: INFO: {percent files transferred  52.8
+2018-8-21_10:49:12 <--> DL-Rawprogram( 28.91% ),  percent files transferred  28.91% 
+2018-8-21_10:49:12 <--> 8%}
+10:49:10: INFO: FILE ACCESS SLOW!!   18.97 MB in  1.608 seconds (  11.80 MBps) --- Overall to target  6.084 seconds (3.12 MBps)
+10:49:10: INFO: {percent files transferred  73.23%}
+10:49:11: INFO: Overall to target  7.176 seconds (3.11 MBps)
+10:49:1
+2018-8-21_10:49:12 <--> DL-Rawprogram( 73.23% ),  percent files transferred  73.23% 
+2018-8-21_10:49:12 <--> 1: INFO: {percent files transferred  85.24%}
+
+10:49:11: INFO: TARGET SAID: 'Finished sector address 18048'
+10:49:11: INFO: 
+10:49:11: INFO: =======================================================
+10:49:11: INFO: ==================== {SUCCESS} ========
+2018-8-21_10:49:12 <--> DL-Rawprogram( 85.24% ),  percent files transferred  85.24% 
+2018-8-21_10:49:12 <--> ================
+10:49:11: INFO: =======================================================
+
+
+10:49:11: INFO: {percent files transferred  85.24%}
+10:49:11: INFO: In handleProgram('..\apps.mbn')
+10:49:11: INFO: Looking for file '..\apps.mbn'
+10:49:11: I
+2018-8-21_10:49:12 <--> NFO: =======================================================
+10:49:11: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\apps.mbn'}
+1
+2018-8-21_10:49:12 <--> 0:49:11: INFO: {<program> (3.90 MB) 1997 sectors needed at location 32384 on LUN 0}
+10:49:11: INFO: =======================================================
+
+
+10:49:11: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+10:49:11: INFO: TARGET SAID: 'start_se
+2018-8-21_10:49:12 <--> ctor 32384, last_sector_address 34381'
+
+10:49:12: INFO: Overall to target  1.092 seconds (3.57 MBps)
+10:49:12: INFO: {percent files transferred  99.15%}
+
+10:49:12: INFO: TARGET SAID: 'Finished sector address 32384'
+10:49:12: INFO: 
+10:49:12: INFO: =
+2018-8-21_10:49:12 <--> DL-Rawprogram( 99.15% ),  percent files transferred  99.15% 
+2018-8-21_10:49:12 <--> ======================================================
+10:49:12: INFO: ==================== {SUCCESS} ========================
+10:49:12: INFO: =======================================================
+
+
+10:49:12: INFO: {percent files transferred  99.15%
+2018-8-21_10:49:12 <--> }
+10:49:12: INFO: In handleProgram('..\efs2apps.mbn')
+10:49:12: INFO: Looking for file '..\efs2apps.mbn'
+10:49:12: INFO: =======================================================
+10:49:12: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.
+2018-8-21_10:49:12 <--> 001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\efs2apps.mbn'}
+10:49:12: INFO: {<program> (24.00 KB) 12 sectors needed at location 56704 on LUN 0}
+10:49:12: INFO: =================================
+2018-8-21_10:49:12 <--> ======================
+
+
+10:49:12: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM
+2018-8-21_10:49:12 <--> '
+
+10:49:12: INFO: TARGET SAID: 'start_sector 56704, last_sector_address 56716'
+
+10:49:12: INFO: FILE ACCESS SLOW!!   24.00 KB in  0.015 seconds (   1.56 MBps) --- Overall to target  0.015 seconds (1.56 MBps)
+10:49:12: INFO: {percent files transferred
+2018-8-21_10:49:12 <-->   99.24%}
+
+10:49:12: INFO: TARGET SAID: 'Finished sector address 56704'
+10:49:12: INFO: 
+10:49:12: INFO: =======================================================
+10:49:12: INFO: ==================== {SUCCESS} ========================
+10:49:12: INFO: =
+2018-8-21_10:49:12 <--> ======================================================
+
+
+10:49:12: INFO: {percent files transferred  99.24%}
+10:49:12: INFO: In handleProgram('..\sbl1.mbn')
+10:49:12: INFO: Looking for file '..\sbl1.mbn'
+10:49:12: INFO: ==============================
+2018-8-21_10:49:12 <--> DL-Rawprogram( 99.24% ),  percent files transferred  99.24% 
+2018-8-21_10:49:12 <--> =========================
+10:49:12: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\sbl1.mbn'}
+10:49:12: INFO: {<program> (219.48 K
+2018-8-21_10:49:12 <--> B) 110 sectors needed at location 0 on LUN 0}
+10:49:12: INFO: =======================================================
+
+
+10:49:12: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+10:49:12: INFO: TARGET SAID: 'start_sector 0, last_sector_address 110'
+
+10
+2018-8-21_10:49:12 <--> :49:12: INFO: FILE ACCESS SLOW!!  220.00 KB in  0.015 seconds (  14.32 MBps) --- Overall to target  0.078 seconds (2.75 MBps)
+10:49:12: INFO: {percent files transferred 100.00%}
+
+10:49:12: INFO: TARGET SAID: 'Finished sector address 0'
+10:49:12: INFO: 
+2018-8-21_10:49:12 <--> DL-Rawprogram( 100.00% ),  percent files transferred 100.00% 
+2018-8-21_10:49:12 <--> 
+10:49:12: INFO: =======================================================
+10:49:12: INFO: ==================== {SUCCESS} ========================
+10:49:12: INFO: =======================================================
+
+
+10:49:12: INFO: {percent files 
+2018-8-21_10:49:12 <--> transferred 100.00%}
+10:49:12: INFO: ==============================================================
+10:49:12: INFO: Files used and their paths
+10:49:12: INFO:   1 'F:\code\QFlash_V4.10_Ext\Release\port_trace.txt'
+10:49:12: INFO:   2 'E:\Firmware\BG96MA
+2018-8-21_10:49:12 <--> R02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\rawprogram_nand_p2K_b128K_factory.xml'
+10:49:12: INFO:   3 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY
+2018-8-21_10:49:12 <--> \BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\partition_complete_p2K_b128K.mbn'
+10:49:12: INFO:   4 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTO
+2018-8-21_10:49:12 <--> RY\update\firehose\..\cefs.mbn'
+10:49:12: INFO:   5 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\tz.mbn'
+10:49:12: INFO:   6 'E:\Firmware\BG96MAR02A08M
+2018-8-21_10:49:12 <--> 1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\mba.mbn'
+10:49:12: INFO:   7 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.
+2018-8-21_10:49:12 <--> 01.001_BETA0814A_FACTORY\update\firehose\..\acdb.mbn'
+10:49:12: INFO:   8 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\rpm.mbn'
+10:49:12: INFO:   9 'E:
+2018-8-21_10:49:12 <--> \Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\qdsp6sw.mbn'
+10:49:12: INFO:  10 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MA
+2018-8-21_10:49:12 <--> R02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\apps.mbn'
+10:49:12: INFO:  11 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\efs2ap
+2018-8-21_10:49:12 <--> ps.mbn'
+10:49:12: INFO:  12 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\sbl1.mbn'
+
+10:49:12: INFO:      _             (done)
+10:49:12: INFO:     | |
+2018-8-21_10:49:12 <-->                  
+10:49:12: INFO:   __| | ___  _ __   ___ 
+10:49:12: INFO:  / _` |/ _ \| '_ \ / _ \
+10:49:12: INFO: | (_| | (_) | | | |  __/
+10:49:12: INFO:  \__,_|\___/|_| |_|\___|
+10:49:12: INFO: {All Finished Successfully}
+
+10:49:12: INFO: Overal
+2018-8-21_10:49:12 <--> DL-Rawprogram, wait for 1 seconds ......
+2018-8-21_10:49:13 <--> DL-Rawprogram, wait for 0 seconds ......
+2018-8-21_10:49:14 <--> FW download success.
+2018-8-21_11:3:56 <--> DM 109
+2018-8-21_11:3:59 <--> 2018-8-21_11:4:7 <--> QDLoader 102
+2018-8-21_11:4:7 <--> EDL port 102
+2018-8-21_11:4:7 <--> Download firehose file ......
+2018-8-21_11:4:7 <--> cmd.exe /c F:\code\QFlash_V4.10_Ext\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM102 -s 13:"E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\prog_nand_firehose_9x06.mbn"
+2018-8-21_11:4:8 <--> DL-Firehose Binary build date: Oct 31 2016 @ 22:51:05
+2018-8-21_11:4:8 <--> DL-Firehose QSAHARASERVER CALLED LIKE THIS: 'F:\code\QFlash_V4.10_Ext\Release\QCMM\CH1\QSaharaServer.ex'Current working dir: F:\code\QFlash_V4.10_Ext\Release
+2018-8-21_11:4:8 <--> DL-Firehose Sahara mappings:
+2018-8-21_11:4:8 <--> DL-Firehose 2: amss.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 6: apps.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 8: dsp1.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 10: dbl.m
+2018-8-21_11:4:8 <--> DL-Firehose bn
+2018-8-21_11:4:8 <--> DL-Firehose 11: osbl.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 12: dsp2.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 16: efs1.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 17: efs2.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 20: efs3.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 21: sbl1.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 22: sbl2.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 23: rpm.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 25: tz.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 28: dsp3.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 29: acdb.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 30: wdt.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 31: mba.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 13: E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\B
+2018-8-21_11:4:8 <--> DL-Firehose G96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\prog_nand_firehose_9x06.mbn
+2018-8-21_11:4:8 <--> DL-Firehose 11:04:08: Requested ID 13, file: "E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814
+2018-8-21_11:4:8 <--> DL-Firehose A_FACTORY\update\firehose\prog_nand_firehose_9x06.mbn"
+2018-8-21_11:4:8 <--> DL-Firehose 11:04:08: 125784 bytes transferred in 0.047000 seconds (2.5523MBps)
+2018-8-21_11:4:8 <--> DL-Firehose 11:04:08: File transferred successfully
+2018-8-21_11:4:8 <--> DL-Firehose NOTE: Target requested image 13 which is DeviceProgrammer. Forcing QUIT. This 
+2018-8-21_11:4:8 <--> DL-Firehose is by design, ** All is well ** SUCCESS!!
+2018-8-21_11:4:8 <--> DL-Firehose 11:04:08: Sahara protocol completed
+2018-8-21_11:4:8 <--> DL-Firehose, wait for 3 seconds ......
+2018-8-21_11:4:10 <--> DL-Firehose, wait for 2 seconds ......
+2018-8-21_11:4:11 <--> DL-Firehose, wait for 1 seconds ......
+2018-8-21_11:4:12 <--> Download rawprogram file ......
+2018-8-21_11:4:12 <--> cmd.exe /c F:\code\QFlash_V4.10_Ext\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM102 --sendxml=rawprogram_nand_p2K_b128K_factory.xml --search_path="E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose" --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC
+2018-8-21_11:4:33 <--> 2018-8-21_11:4:33 <--> 
+
+2018-8-21_11:4:33 <--> 2018-8-21_11:4:33 <--> 
+
+2018-8-21_11:4:33 <--> 
+Base Version: 16.10.28.15.28
+Binary build date: Oct 31 2016 @ 22:51:02
+Incremental Build version: 16.10.31.22.51.02
+
+11:04:33: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+F:\code\QFlash_V4.10_Ext\Re
+2018-8-21_11:4:33 <--> lease\QCMM\CH1\fh_loader.exe --port=\\.\COM102 --sendxml=rawprogram_nand_p2K_b128K_factory.xml --search_path=E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose --n
+2018-8-21_11:4:33 <--> oprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC 
+************************************************
+
+11:04:33: INFO: Current working dir (cwd): F:\code\QFlash_V4.10_Ext\Release\
+11:04:33: INFO: Showing network mappings to allow debugg
+2018-8-21_11:4:33 <--> ing
+11:04:33: INFO: 
+
+
+
+11:04:33: INFO: Trying to store 'rawprogram_nand_p2K_b128K_factory.xml' in string table
+11:04:33: INFO: Looking for file 'rawprogram_nand_p2K_b128K_factory.xml'
+11:04:33: INFO: User wants to talk to port '\\.\COM102'
+11:04:3
+2018-8-21_11:4:33 <--> 3: INFO: Took       0.00000000 seconds to open port
+11:04:33: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+11:04:33: INFO: If  you don't want this, use --dontsorttags
+
+11:04:33: INFO: Looking for file 'partition_co
+2018-8-21_11:4:33 <--> mplete_p2K_b128K.mbn'
+11:04:33: INFO: SectorSizeInBytes changed to 2048
+11:04:33: INFO: Looking for file '..\cefs.mbn'
+11:04:33: INFO: Looking for file '..\tz.mbn'
+11:04:33: INFO: Looking for file '..\mba.mbn'
+11:04:33: INFO: Looking for file '..\acdb
+2018-8-21_11:4:33 <--> .mbn'
+11:04:33: INFO: Looking for file '..\rpm.mbn'
+11:04:33: INFO: Looking for file '..\qdsp6sw.mbn'
+11:04:33: INFO: Looking for file '..\apps.mbn'
+11:04:33: INFO: Looking for file '..\efs2apps.mbn'
+11:04:33: INFO: Looking for file '..\sbl1.mbn'
+11:
+2018-8-21_11:4:33 <--> 04:33: INFO: 
+
+Total to be tansferd with <program> or <read> is 28.02 MB
+
+
+11:04:33: INFO: Sending <configure>
+
+11:04:33: INFO: TARGET SAID: 'Supported Functions: program configure power benchmark read getstorageinfo erase nop '
+11:04:33: INFO: fh.
+2018-8-21_11:4:33 <--> attrs.MaxPayloadSizeToTargetInBytes = 16384
+11:04:33: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+11:04:33: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+2018-8-21_11:4:33 <--> 
+11:04:33: INFO:                         Issuing Erase                       
+11:04:33: INFO:  _____              _               _____                   
+11:04:33: INFO: |_   _|            (_)             |  ___|                  
+11:04:33: INFO:   | 
+2018-8-21_11:4:33 <--> | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:33: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:33: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:33: INFO:  \___/___/___/\__,_|_|_| |
+2018-8-21_11:4:33 <--> _|\__, | \____/_|  \__,_|___/\___|
+11:04:33: INFO:                              __/ |                          
+11:04:33: INFO:                             |___/ 
+
+
+
+11:04:33: INFO: TARGET SAID: 'start_sector = 0 and num_partition_sectors =0x280)'
+1
+2018-8-21_11:4:33 <--> 1:04:33: INFO: 
+
+
+11:04:33: INFO: ERASE SUCCESSFUL
+11:04:33: INFO: ERASE SUCCESSFUL
+11:04:33: INFO: ERASE SUCCESSFUL
+
+
+11:04:33: INFO:                         Issuing Erase                       
+11:04:33: INFO:  _____              _              
+2018-8-21_11:4:33 <-->  _____                   
+11:04:33: INFO: |_   _|            (_)             |  ___|                  
+11:04:33: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:33: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ 
+2018-8-21_11:4:33 <--> _ \
+11:04:33: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:33: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:33: INFO:                              __/ |                          
+11:04:33: INFO:  
+2018-8-21_11:4:33 <-->                            |___/ 
+
+
+
+11:04:33: INFO: TARGET SAID: 'start_sector = 640 and num_partition_sectors =0x280)'
+11:04:33: INFO: 
+
+
+11:04:33: INFO: ERASE SUCCESSFUL
+11:04:33: INFO: ERASE SUCCESSFUL
+11:04:33: INFO: ERASE SUCCESSFUL
+
+
+11
+2018-8-21_11:4:33 <--> :04:33: INFO:                         Issuing Erase                       
+11:04:33: IN
+2018-8-21_11:4:34 <--> FO:  _____              _               _____                   
+11:04:33: INFO: |_   _|            (_)             |  ___|                  
+11:04:33: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:33: INFO:   | |/ __/ __| | |
+2018-8-21_11:4:34 <-->  | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:33: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:33: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:33: INFO:                              __/ |      
+2018-8-21_11:4:34 <-->                     
+11:04:33: INFO:                             |___/ 
+
+
+
+11:04:33: INFO: TARGET SAID: 'start_sector = 4864 and num_partition_sectors =0x2a00)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+2018-8-21_11:4:34 <--> 
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuing Erase                       
+11:04:34: INFO:  _____              _               _____                   
+11:04:34: INFO: |_   _|            (_)             |  ___|   
+2018-8-21_11:4:34 <-->                
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04
+2018-8-21_11:4:34 <--> :34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |                          
+11:04:34: INFO:                             |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 15
+2018-8-21_11:4:34 <--> 616 and num_partition_sectors =0x300)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuing Erase                       
+11:04:34: 
+2018-8-21_11:4:34 <--> INFO:  _____              _               _____                   
+11:04:34: INFO: |_   _|            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __| |
+2018-8-21_11:4:34 <-->  | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |    
+2018-8-21_11:4:34 <-->                       
+11:04:34: INFO:                             |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 16384 and num_partition_sectors =0x300)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFU
+2018-8-21_11:4:34 <--> L
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuing Erase                       
+11:04:34: INFO:  _____              _               _____                   
+11:04:34: INFO: |_   _|            (_)             |  ___| 
+2018-8-21_11:4:34 <-->                  
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:
+2018-8-21_11:4:34 <--> 04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |                          
+11:04:34: INFO:                             |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 
+2018-8-21_11:4:34 <--> 17152 and num_partition_sectors =0x180)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuing Erase                       
+11:04:34
+2018-8-21_11:4:34 <--> : INFO:  _____              _               _____                   
+11:04:34: INFO: |_   _|            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __|
+2018-8-21_11:4:34 <-->  | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |  
+2018-8-21_11:4:34 <-->                         
+11:04:34: INFO:                             |___/ 
+
+
+
+11:04:34: I
+2018-8-21_11:4:34 <--> NFO: TARGET SAID: 'start_sector = 17536 and num_partition_sectors =0x200)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuing Eras
+2018-8-21_11:4:34 <--> e                       
+11:04:34: INFO:  _____              _               _____                   
+11:04:34: INFO: |_   _|            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  __
+2018-8-21_11:4:34 <--> _ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:   
+2018-8-21_11:4:34 <-->                            __/ |                          
+11:04:34: INFO:                             |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 18048 and num_partition_sectors =0x3800)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCES
+2018-8-21_11:4:34 <--> SFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuing Erase                       
+11:04:34: INFO:  _____              _               _____                   
+11:04:34: INFO: |_   _
+2018-8-21_11:4:34 <--> |            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | | |
+2018-8-21_11:4:34 <-->  (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |                          
+11:04:34: INFO:                             |___/ 
+
+
+
+11:04:34
+2018-8-21_11:4:34 <--> : INFO: TARGET SAID: 'start_sector = 32384 and num_partition_sectors =0xd00)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuing E
+2018-8-21_11:4:34 <--> rase                       
+11:04:34: INFO:  _____              _               _____                   
+11:04:34: INFO: |_   _|            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___ 
+2018-8-21_11:4:34 <-->  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:
+2018-8-21_11:4:34 <-->                               __/ |                          
+11:04:34: INFO:                             |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 35712 and num_partition_sectors =0x3800)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUC
+2018-8-21_11:4:34 <--> CESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuing Erase                       
+11:04:34: INFO:  _____              _               _____                   
+11:04:34: INFO: |_ 
+2018-8-21_11:4:34 <-->   _|            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | 
+2018-8-21_11:4:34 <--> | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |                          
+11:04:34: INFO:                             |___/ 
+
+
+
+11:04
+2018-8-21_11:4:34 <--> :34: INFO: TARGET SAID: 'start_sector = 50048 and num_partition_sectors =0x300)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuin
+2018-8-21_11:4:34 <--> g Erase                       
+11:04:34: INFO:  _____              _               _____                   
+11:04:34: INFO: |_   _|            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ _
+2018-8-21_11:4:34 <--> __  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: 
+2018-8-21_11:4:34 <--> INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |                          
+11:04:34: INFO:                 
+2018-8-21_11:4:34 <-->             |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 50816 and num_partition_sectors =0x300)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:
+2018-8-21_11:4:34 <-->                          Issuing Erase                       
+11:04:34: INFO:  _____              _               _____                   
+11:04:34: INFO: |_   _|            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _ _
+2018-8-21_11:4:34 <-->  _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|
+2018-8-21_11:4:34 <-->   \__,_|___/\___|
+11:04:34: INFO:                              __/ |                          
+11:04:34: INFO:                             |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 51584 and num_partition_sectors =0x200)'
+11:04:34: INFO
+2018-8-21_11:4:34 <--> : 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuing Erase                       
+11:04:34: INFO:  _____              _               _____       
+2018-8-21_11:4:34 <-->             
+11:04:34: INFO: |_   _|            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34
+2018-8-21_11:4:34 <--> : INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |                          
+11:04:34: INFO:               
+2018-8-21_11:4:34 <-->               |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 52096 and num_partition_sectors =0xd00)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INF
+2018-8-21_11:4:34 <--> O:                         Issuing Erase                       
+11:04:34: INFO:  _____              _               _____                   
+11:04:34: INFO: |_   _|            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _
+2018-8-21_11:4:34 <-->  _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/
+2018-8-21_11:4:34 <--> _|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |                          
+11:04:34: INFO:                             |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 55424 and num_partition_sectors =0x180)'
+11:04:34: IN
+2018-8-21_11:4:34 <--> FO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuing Erase                       
+11:04:34: INFO:  _____              _               _____     
+2018-8-21_11:4:34 <-->               
+11:04:34: INFO: |_   _|            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:
+2018-8-21_11:4:34 <--> 34: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |                          
+11:04:34: INFO:             
+2018-8-21_11:4:34 <-->                 |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 55808 and num_partition_sectors =0x200)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: I
+2018-8-21_11:4:34 <--> NFO:                         Issuing Erase                       
+11:04:34: INFO:  _____            
+2018-8-21_11:4:35 <-->   _               _____                   
+11:04:34: INFO: |_   _|            (_)             |  ___|                  
+11:04:34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __
+2018-8-21_11:4:35 <--> | '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |                          
+
+2018-8-21_11:4:35 <--> 11:04:34: INFO:                             |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 56320 and num_partition_sectors =0x180)'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE
+2018-8-21_11:4:35 <-->  SUCCESSFUL
+
+
+11:04:34: INFO:                         Issuing Erase                       
+11:04:34: INFO:  _____              _               _____                   
+11:04:34: INFO: |_   _|            (_)             |  ___|                  
+11:04
+2018-8-21_11:4:35 <--> :34: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:04:34: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:04:34: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:04:34: INFO:  \___/___/_
+2018-8-21_11:4:35 <--> __/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:04:34: INFO:                              __/ |                          
+11:04:34: INFO:                             |___/ 
+
+
+
+11:04:34: INFO: TARGET SAID: 'start_sector = 56704 and num_partition_
+2018-8-21_11:4:35 <--> sectors =0x2280)'
+
+11:04:34: INFO: TARGET SAID: 'Skipping:	bad block 0x399'
+
+11:04:34: INFO: TARGET SAID: 'Skipping:	bad block 0x39a'
+
+11:04:34: INFO: TARGET SAID: 'Skipping:	bad block 0x39b'
+11:04:34: INFO: 
+
+
+11:04:34: INFO: ERASE SUCCESSFUL
+1
+2018-8-21_11:4:35 <--> 1:04:34: INFO: ERASE SUCCESSFUL
+11:04:34: INFO: ERASE SUCCESSFUL
+
+
+11:04:34: INFO: In handleProgram('partition_complete_p2K_b128K.mbn')
+11:04:34: INFO: Looking for file 'partition_complete_p2K_b128K.mbn'
+11:04:34: INFO: ==============================
+2018-8-21_11:4:35 <--> =========================
+11:04:34: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\partition_complete_p2K_b128K.mbn'}
+11:04:34: INFO:
+2018-8-21_11:4:35 <-->  {<program> (8.00 KB) 4 sectors needed at location 640 on LUN 0}
+11:04:34: INFO: =======================================================
+
+
+11:04:34: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:04:34: INFO: TARGET SAID: 'start_sector 640, last_sect
+2018-8-21_11:4:35 <--> or_address 644'
+
+11:04:34: INFO: FILE ACCESS SLOW!!    8.00 KB in  0.015 seconds ( 533.33 KBps) --- Overall to target  0.010 seconds (800.00 KBps)
+11:04:34: INFO: {percent files transferred   0.03%}
+
+11:04:35: INFO: TARGET SAID: 'Finished sector addre
+2018-8-21_11:4:35 <--> DL-Rawprogram( 0.03% ),  percent files transferred   0.03% 
+2018-8-21_11:4:35 <--> ss 640'
+11:04:35: INFO: 
+11:04:35: INFO: =======================================================
+11:04:35: INFO: ==================== {SUCCESS} ========================
+11:04:35: INFO: =======================================================
+
+
+11:04:
+2018-8-21_11:4:35 <--> 35: INFO: {percent files transferred   0.03%}
+11:04:35: INFO: In handleProgram('..\cefs.mbn')
+11:04:35: INFO: Looking for file '..\cefs.mbn'
+11:04:35: INFO: =======================================================
+11:04:35: INFO: {<program> FILE: 'E:\Fi
+2018-8-21_11:4:35 <--> rmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\cefs.mbn'}
+11:04:35: INFO: {<program> (524.00 KB) 262 sectors needed at location 4864 on LUN 0}
+11:04:35: INFO: 
+2018-8-21_11:4:35 <--> =======================================================
+
+
+11:04:35: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:04:35: INFO: TARGET SAID: 'start_sector 4864, last_sector_address 5126'
+
+11:04:35: INFO: FILE ACCESS SLOW!!  524.00 KB in  0.015 secon
+2018-8-21_11:4:35 <--> ds (  34.11 MBps) --- Overall to target  0.125 seconds (4.09 MBps)
+11:04:35: INFO: {percent files transferred   1.85%}
+
+11:04:35: INFO: TARGET SAID: 'Finished sector address 4864'
+11:04:35: INFO: 
+11:04:35: INFO: ======================================
+2018-8-21_11:4:35 <--> DL-Rawprogram( 1.85% ),  percent files transferred   1.85% 
+2018-8-21_11:4:35 <--> =================
+11:04:35: INFO: ==================== {SUCCESS} ======================
+2018-8-21_11:4:35 <--> ==
+11:04:35: INFO: =======================================================
+
+
+11:04:35: INFO: {percent files transferred   1.85%}
+11:04:35: INFO: In handleProgram('..\tz.mbn')
+11:04:35: INFO: Looking for file '..\tz.mbn'
+11:04:35: INFO: =============
+2018-8-21_11:4:35 <--> ==========================================
+11:04:35: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\tz.mbn'}
+11:04:35: INFO: {<pro
+2018-8-21_11:4:35 <--> gram> (538.50 KB) 270 sectors needed at location 15616 on LUN 0}
+11:04:35: INFO: =======================================================
+
+
+11:04:35: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:04:35: INFO: TARGET SAID: 'start_sector 15616, last_se
+2018-8-21_11:4:35 <--> ctor_address 15886'
+
+11:04:35: INFO: FILE ACCESS SLOW!!  540.00 KB in  0.015 seconds (  35.16 MBps) --- Overall to target  0.125 seconds (4.22 MBps)
+11:04:35: INFO: {percent files transferred   3.73%}
+
+11:04:35: INFO: TARGET SAID: 'Finished sector add
+2018-8-21_11:4:35 <--> DL-Rawprogram( 3.73% ),  percent files transferred   3.73% 
+2018-8-21_11:4:35 <--> ress 15616'
+11:04:35: INFO: 
+11:04:35: INFO: =======================================================
+11:04:35: INFO: ==================== {SUCCESS} ========================
+11:04:35: INFO: =======================================================
+
+
+11
+2018-8-21_11:4:35 <--> :04:35: INFO: {percent files transferred   3.73%}
+11:04:35: INFO: In handleProgram('..\mba.mbn')
+11:04:35: INFO: Looking for file '..\mba.mbn'
+11:04:35: INFO: =======================================================
+11:04:35: INFO: {<program> FILE: 'E:\
+2018-8-21_11:4:35 <--> Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\mba.mbn'}
+11:04:35: INFO: {<program> (240.34 KB) 121 sectors needed at location 16384 on LUN 0}
+11:04:35: INFO
+2018-8-21_11:4:35 <--> : =======================================================
+
+
+11:04:35: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:04:35: INFO: TARGET SAID: 'start_sector 16384, last_sector_address 16505'
+
+11:04:35: INFO: FILE ACCESS SLOW!!  242.00 KB in  0.015 s
+2018-8-21_11:4:35 <--> econds (  15.76 MBps) --- Overall to target  0.062 seconds (3.81 MBps)
+11:04:35: INFO: {percent files transferred   4.57%}
+
+11:04:35: INFO: TARGET SAID: 'Finished sector address 16384'
+11:04:35: INFO: 
+11:04:35: INFO: =================================
+2018-8-21_11:4:35 <--> DL-Rawprogram( 4.57% ),  percent files transferred   4.57% 
+2018-8-21_11:4:35 <--> ======================
+11:04:35: INFO: ==================== {SUCCESS} ========================
+11:04:35: INFO: =======================================================
+
+
+11:04:35: INFO: {percent files transferred   4.57%}
+11:04:35: INFO: In handleProg
+2018-8-21_11:4:35 <--> ram('..\acdb.mbn')
+11:04:35: INFO: Looking for file '..\acdb.mbn'
+11:04:35: INFO: =======================================================
+11:04:35: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A0
+2018-8-21_11:4:35 <--> 8M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\acdb.mbn'}
+11:04:35: INFO: {<program> (128.04 KB) 65 sectors needed at location 17152 on LUN 0}
+11:04:35: INFO: =======================================================
+
+
+11:04:35: INFO:
+2018-8-21_11:4:35 <-->  TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:04:35: INFO: TARGET SAID: 'start_sector 17152, last_sector_address 17217'
+
+11:04:35: INFO: FILE ACCESS SLOW!!  130.00 KB in  0.015 seconds (   8.46 MBps) --- Overall to target  0.031 seconds (4.10 MBps)
+11:04:
+2018-8-21_11:4:35 <--> 35: INFO: {percent files transferred   5.01%}
+
+11:04:35: INFO: TARGET SAID: 'Finished sector address 17152'
+11:04:35: INFO: 
+11:04:35: INFO: =======================================================
+11:04:35: INFO: ==================== {SUCCESS} =======
+2018-8-21_11:4:35 <--> DL-Rawprogram( 5.01% ),  percent files transferred   5.01% 
+2018-8-21_11:4:35 <--> =================
+11:04:35: INFO: =======================================================
+
+
+11:04:35: INFO: {percent files transferred   5.01%}
+11:04:35: INFO: In handleProgram('..\rpm.mbn')
+11:04:35: INFO: Looking for file '..\rpm.mbn'
+11:04:35: IN
+2018-8-21_11:4:35 <--> FO: =======================================================
+11:04:35: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\rpm.mbn'}
+11:
+2018-8-21_11:4:35 <--> 04:35: INFO: {<program> (153.02 KB) 77 sectors needed at location 17536 on LUN
+2018-8-21_11:4:42 <-->  0}
+11:04:35: INFO: =======================================================
+
+
+11:04:35: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:04:35: INFO: TARGET SAID: 'start_sector 17536, last_sector_address 17613'
+
+11:04:35: INFO: FILE ACCESS SLOW!!  15
+2018-8-21_11:4:42 <--> 4.00 KB in  0.015 seconds (  10.03 MBps) --- Overall to target  0.031 seconds (4.85 MBps)
+11:04:35: INFO: {percent files transferred   5.55%}
+
+11:04:35: INFO: TARGET SAID: 'Finished sector address 17536'
+11:04:35: INFO: 
+11:04:35: INFO: ==============
+2018-8-21_11:4:42 <--> DL-Rawprogram( 5.55% ),  percent files transferred   5.55% 
+2018-8-21_11:4:42 <--> =========================================
+11:04:35: INFO: ==================== {SUCCESS} ========================
+11:04:35: INFO: =======================================================
+
+
+11:04:35: INFO: {percent files transferred   5.55%}
+11:04:35: 
+2018-8-21_11:4:42 <--> INFO: In handleProgram('..\qdsp6sw.mbn')
+11:04:35: INFO: Looking for file '..\qdsp6sw.mbn'
+11:04:35: INFO: =======================================================
+11:04:35: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA
+2018-8-21_11:4:42 <--> 0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\qdsp6sw.mbn'}
+11:04:35: INFO: {<program> (22.33 MB) 11435 sectors needed at location 18048 on LUN 0}
+11:04:35: INFO: ==============================================
+2018-8-21_11:4:42 <--> =========
+
+
+11:04:35: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:04:35: INFO: TARGET SAID: 'start_sector 18048, last_sector_address 29483'
+
+11:04:37: INFO: Overall to target  2.013 seconds (4.11 MBps)
+11:04:37: INFO: {percent files transferred 
+2018-8-21_11:4:42 <-->  35.10%}
+11:04:39: INFO: Overall to target  4.025 seconds (4.06 MBps)
+11:04:39: INFO: {percent files transferred  63.87%}
+11:04:41: INFO: Overall to target  5.507 seconds (4.06 MBps)
+11:04:41: INFO: {percent files transferred  85.24%}
+
+11:04:41: INFO
+2018-8-21_11:4:42 <--> DL-Rawprogram( 63.87% ),  percent files transferred  63.87% 
+2018-8-21_11:4:42 <--> DL-Rawprogram( 85.24% ),  percent files transferred  85.24% 
+2018-8-21_11:4:42 <--> : TARGET SAID: 'Finished sector address 18048'
+11:04:41: INFO: 
+11:04:41: INFO: =======================================================
+11:04:41: INFO: ==================== {SUCCESS} ========================
+11:04:41: INFO: ============================
+2018-8-21_11:4:42 <--> ===========================
+
+
+11:04:41: INFO: {percent files transferred  85.24%}
+11:04:41: INFO: In handleProgram('..\apps.mbn')
+11:04:41: INFO: Looking for file '..\apps.mbn'
+11:04:41: INFO: =======================================================
+
+2018-8-21_11:4:42 <--> 11:04:41: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\apps.mbn'}
+11:04:41: INFO: {<program> (3.90 MB) 1997 sectors needed at loc
+2018-8-21_11:4:42 <--> ation 32384 on LUN 0}
+11:04:41: INFO: =======================================================
+
+
+11:04:41: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:04:41: INFO: TARGET SAID: 'start_sector 32384, last_sector_address 34381'
+
+11:04:42: INFO: Over
+2018-8-21_11:4:42 <--> all to target  0.967 seconds (4.03 MBps)
+11:04:42: INFO: {percent files transferred  99.15%}
+
+11:04:42: INFO: TARGET SAID: 'Finished sector address 32384'
+11:04:42: INFO: 
+11:04:42: INFO: =======================================================
+11:04:
+2018-8-21_11:4:42 <--> DL-Rawprogram( 99.15% ),  percent files transferred  99.15% 
+2018-8-21_11:4:42 <--> 42: INFO: ==================== {SUCCESS} ========================
+11:04:42: INFO: =======================================================
+
+
+11:04:42: INFO: {percent files transferred  99.15%}
+11:04:42: INFO: In handleProgram('..\efs2apps.mbn')
+11:04:
+2018-8-21_11:4:42 <--> 42: INFO: Looking for file '..\efs2apps.mbn'
+11:04:42: INFO: =======================================================
+11:04:42: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.
+2018-8-21_11:4:42 <--> 01.001_BETA0814A_FACTORY\update\firehose\..\efs2apps.mbn'}
+11:04:42: INFO: {<program> (24.00 KB) 12 sectors needed at location 56704 on LUN 0}
+11:04:42: INFO: =======================================================
+
+
+11:04:42: INFO: TARGET SAID: 'INSI
+2018-8-21_11:4:42 <--> DE HANDLE PROGRAM'
+
+11:04:42: INFO: TARGET SAID: 'start_sector 56704, last_sector_address 56716'
+
+11:04:42: INFO: FILE ACCESS SLOW!!   24.00 KB in  0.015 seconds (   1.56 MBps) --- Overall to target  0.016 seconds (1.46 MBps)
+11:04:42: INFO: {percent 
+2018-8-21_11:4:42 <--> files transferred  99.24%}
+
+11:04:42: INFO: TARGET SAID: 'Finished sector address 
+2018-8-21_11:4:42 <--> 56704'
+11:04:42: INFO: 
+11:04:42: INFO: =======================================================
+11:04:42: INFO: ==================== {SUCCESS} ========================
+11:04:42: INFO: =======================================================
+
+
+11:04:4
+2018-8-21_11:4:42 <--> 2: INFO: {percent files transferred  99.24%}
+11:04:42: INFO: In handleProgram('..\sbl1.mbn')
+11:04:42: INFO: Looking for file '..\sbl1.mbn'
+11:04:42: INFO: =======================================================
+11:04:42: INFO: {<program> FILE: 'E:\Fir
+2018-8-21_11:4:42 <--> DL-Rawprogram( 99.24% ),  percent files transferred  99.24% 
+2018-8-21_11:4:42 <--> mware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\sbl1.mbn'}
+11:04:42: INFO: {<program> (219.48 KB) 110 sectors needed at location 0 on LUN 0}
+11:04:42: INFO: ====
+2018-8-21_11:4:42 <--> ===================================================
+
+
+11:04:42: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:04:42: INFO: TARGET SAID: 'start_sector 0, last_sector_address 110'
+
+11:04:42: INFO: FILE ACCESS SLOW!!  220.00 KB in  0.015 seconds (  14
+2018-8-21_11:4:42 <--> .32 MBps) --- Overall to target  0.047 seconds (4.57 MBps)
+11:04:42: INFO: {percent files transferred 100.00%}
+
+11:04:42: INFO: TARGET SAID: 'Finished sector address 0'
+11:04:42: INFO: 
+11:04:42: INFO: =================================================
+2018-8-21_11:4:42 <--> DL-Rawprogram( 100.00% ),  percent files transferred 100.00% 
+2018-8-21_11:4:42 <--> ======
+11:04:42: INFO: ==================== {SUCCESS} ========================
+11:04:42: INFO: =======================================================
+
+
+11:04:42: INFO: {percent files transferred 100.00%}
+11:04:42: INFO: =============================
+2018-8-21_11:4:42 <--> =================================
+11:04:42: INFO: Files used and their paths
+11:04:42: INFO:   1 'F:\code\QFlash_V4.10_Ext\Release\port_trace.txt'
+11:04:42: INFO:   2 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G
+2018-8-21_11:4:42 <--> _TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\rawprogram_nand_p2K_b128K_factory.xml'
+11:04:42: INFO:   3 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\f
+2018-8-21_11:4:42 <--> irehose\partition_complete_p2K_b128K.mbn'
+11:04:42: INFO:   4 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\cefs.mbn'
+11:04:42: INFO:   5 'E:\Firmware\B
+2018-8-21_11:4:42 <--> G96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\tz.mbn'
+11:04:42: INFO:   6 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP08
+2018-8-21_11:4:42 <--> 11A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\mba.mbn'
+11:04:42: INFO:   7 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\acdb.mbn'
+11:04:42: IN
+2018-8-21_11:4:42 <--> FO:   8 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\rpm.mbn'
+11:04:42: INFO:   9 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY
+2018-8-21_11:4:42 <--> \BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\qdsp6sw.mbn'
+11:04:42: INFO:  10 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose
+2018-8-21_11:4:42 <--> \..\apps.mbn'
+11:04:42: INFO:  11 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\efs2apps.mbn'
+11:04:42: INFO:  12 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A
+2018-8-21_11:4:42 <--> _01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\sbl1.mbn'
+
+11:04:42: INFO:      _             (done)
+11:04:42: INFO:     | |                 
+11:04:42: INFO:   __| | ___  _ __   ___ 
+11:04:
+2018-8-21_11:4:42 <--> 42: INFO:  / _` |/ _ \| '_ \ / _ \
+11:04:42: INFO: | (_| | (_) | | | |  __/
+11:04:42: INFO:  \__,_|\___/|_| |_|\___|
+11:04:42: INFO: {All Finished Successfully}
+
+11:04:42: INFO: Overall to target  8.502 seconds (3.30 MBps)
+11:04:42: INFO: {percent fi
+2018-8-21_11:4:42 <--> DL-Rawprogram, wait for 1 seconds ......
+2018-8-21_11:4:43 <--> DL-Rawprogram, wait for 0 seconds ......
+2018-8-21_11:4:44 <--> FW download success.
+2018-8-21_11:7:20 <--> DM 109
+2018-8-21_11:7:23 <--> Get Port102-1 Pass
+2018-8-21_11:7:31 <--> QDLoader 102
+2018-8-21_11:7:31 <--> EDL port 102
+2018-8-21_11:7:31 <--> Download firehose file ......
+2018-8-21_11:7:31 <--> cmd.exe /c F:\code\QFlash_V4.10_Ext\Release\QCMM\CH1\QSaharaServer.exe -p \\.\COM102 -s 13:"E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\prog_nand_firehose_9x06.mbn"
+2018-8-21_11:7:31 <--> DL-Firehose Binary build date: Oct 31 2016 @ 22:51:05
+2018-8-21_11:7:31 <--> DL-Firehose QSAHARASERVER CALLED LIKE THIS: 'F:\code\QFlash_V4.10_Ext\Release\QCMM\CH1\QSaharaServer.ex'Current working dir: F:\code\QFlash_V4.10_Ext\Release
+2018-8-21_11:7:31 <--> DL-Firehose Sahara mappings:
+2018-8-21_11:7:31 <--> DL-Firehose 2: amss.mbn
+2018-8-21_11:7:31 <--> DL-Firehose 6: apps.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 8: dsp1.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 10: dbl.m
+2018-8-21_11:7:32 <--> DL-Firehose bn
+2018-8-21_11:7:32 <--> DL-Firehose 11: osbl.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 12: dsp2.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 16: efs1.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 17: efs2.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 20: efs3.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 21: sbl1.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 22: sbl2.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 23: rpm.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 25: tz.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 28: dsp3.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 29: acdb.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 30: wdt.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 31: mba.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 13: E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\B
+2018-8-21_11:7:32 <--> DL-Firehose G96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\prog_nand_firehose_9x06.mbn
+2018-8-21_11:7:32 <--> DL-Firehose 11:07:31: Requested ID 13, file: "E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814
+2018-8-21_11:7:32 <--> DL-Firehose A_FACTORY\update\firehose\prog_nand_firehose_9x06.mbn"
+2018-8-21_11:7:32 <--> DL-Firehose 11:07:31: 125784 bytes transferred in 0.063000 seconds (1.9041MBps)
+2018-8-21_11:7:32 <--> DL-Firehose 11:07:31: File transferred successfully
+2018-8-21_11:7:32 <--> DL-Firehose NOTE: Target requested image 13 which is DeviceProgrammer. Forcing QUIT. This 
+2018-8-21_11:7:32 <--> DL-Firehose is by design, ** All is well ** SUCCESS!!
+2018-8-21_11:7:32 <--> DL-Firehose 11:07:31: Sahara protocol completed
+2018-8-21_11:7:32 <--> DL-Firehose, wait for 3 seconds ......
+2018-8-21_11:7:33 <--> DL-Firehose, wait for 2 seconds ......
+2018-8-21_11:7:34 <--> DL-Firehose, wait for 1 seconds ......
+2018-8-21_11:7:36 <--> Download rawprogram file ......
+2018-8-21_11:7:36 <--> cmd.exe /c F:\code\QFlash_V4.10_Ext\Release\QCMM\CH1\fh_loader.exe --port=\\.\COM102 --sendxml=rawprogram_nand_p2K_b128K_factory.xml --search_path="E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose" --noprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC
+2018-8-21_11:7:36 <--> 2018-8-21_11:7:36 <--> 
+
+2018-8-21_11:7:36 <--> 2018-8-21_11:7:36 <--> 
+
+2018-8-21_11:7:37 <--> 
+Base Version: 16.10.28.15.28
+Binary build date: Oct 31 2016 @ 22:51:02
+Incremental Build version: 16.10.31.22.51.02
+
+11:07:36: INFO: FH_LOADER WAS CALLED EXACTLY LIKE THIS
+************************************************
+F:\code\QFlash_V4.10_Ext\Re
+2018-8-21_11:7:37 <--> lease\QCMM\CH1\fh_loader.exe --port=\\.\COM102 --sendxml=rawprogram_nand_p2K_b128K_factory.xml --search_path=E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose --n
+2018-8-21_11:7:37 <--> oprompt --showpercentagecomplete --zlpawarehost=1 --memoryname=eMMC 
+************************************************
+
+11:07:36: INFO: Current working dir (cwd): F:\code\QFlash_V4.10_Ext\Release\
+11:07:36: INFO: Showing network mappings to allow debugg
+2018-8-21_11:7:37 <--> ing
+11:07:37: INFO: 
+
+
+
+11:07:37: INFO: Trying to store 'rawprogram_nand_p2K_b128K_factory.xml' in string table
+11:07:37: INFO: Looking for file 'rawprogram_nand_p2K_b128K_factory.xml'
+11:07:37: INFO: User wants to talk to port '\\.\COM102'
+11:07:3
+2018-8-21_11:7:37 <--> 7: INFO: Took       0.00000000 seconds to open port
+11:07:37: INFO: Sorting TAGS to ensure order is <configure>,<erase>, others, <patch>,<power>
+11:07:37: INFO: If  you don't want this, use --dontsorttags
+
+11:07:37: INFO: Looking for file 'partition_co
+2018-8-21_11:7:37 <--> mplete_p2K_b128K.mbn'
+11:07:37: INFO: SectorSizeInBytes changed to 2048
+11:07:37: INFO: Looking for file '..\cefs.mbn'
+11:07:37: INFO: Looking for file '..\tz.mbn'
+11:07:37: INFO: Looking for file '..\mba.mbn'
+11:07:37: INFO: Looking for file '..\acdb
+2018-8-21_11:7:37 <--> .mbn'
+11:07:37: INFO: Looking for file '..\rpm.mbn'
+11:07:37: INFO: Looking for file '..\qdsp6sw.mbn'
+11:07:37: INFO: Looking for file '..\apps.mbn'
+11:07:37: INFO: Looking for file '..\efs2apps.mbn'
+11:07:37: INFO: Looking for file '..\sbl1.mbn'
+11:
+2018-8-21_11:7:37 <--> 07:37: INFO: 
+
+Total to be tansferd with <program> or <read> is 28.02 MB
+
+
+11:07:37: INFO: Sending <configure>
+
+11:07:37: INFO: TARGET SAID: 'Supported Functions: program configure power benchmark read getstorageinfo erase nop '
+11:07:37: INFO: fh.
+2018-8-21_11:7:37 <--> attrs.MaxPayloadSizeToTargetInBytes = 16384
+11:07:37: INFO: fh.attrs.MaxPayloadSizeToTargetInBytesSupported = 16384
+11:07:37: INFO: Target returned NAK for your <configure> but it does not seem to be an error. This is ok, fh_loader.exe attributes updated
+2018-8-21_11:7:37 <--> 
+11:07:37: INFO:                         Issuing Erase                       
+11:07:37: INFO:  _____              _               _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | 
+2018-8-21_11:7:37 <--> | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |
+2018-8-21_11:7:37 <--> _|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |                          
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 0 and num_partition_sectors =0x280)'
+1
+2018-8-21_11:7:37 <--> 1:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuing Erase                       
+11:07:37: INFO:  _____              _              
+2018-8-21_11:7:37 <-->  _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ 
+2018-8-21_11:7:37 <--> _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |                          
+11:07:37: INFO:  
+2018-8-21_11:7:37 <-->                            |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 640 and num_partition_sectors =0x280)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11
+2018-8-21_11:7:37 <--> :07:37: INFO:                         Issuing Erase                       
+11:07:37: IN
+2018-8-21_11:7:37 <--> FO:  _____              _               _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| | |
+2018-8-21_11:7:37 <-->  | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |      
+2018-8-21_11:7:37 <-->                     
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 4864 and num_partition_sectors =0x2a00)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+2018-8-21_11:7:37 <--> 
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuing Erase                       
+11:07:37: INFO:  _____              _               _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___|   
+2018-8-21_11:7:37 <-->                
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07
+2018-8-21_11:7:37 <--> :37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |                          
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 15
+2018-8-21_11:7:37 <--> 616 and num_partition_sectors =0x300)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuing Erase                       
+11:07:37: 
+2018-8-21_11:7:37 <--> INFO:  _____              _               _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| |
+2018-8-21_11:7:37 <-->  | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |    
+2018-8-21_11:7:37 <-->                       
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 16384 and num_partition_sectors =0x300)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFU
+2018-8-21_11:7:37 <--> L
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuing Erase                       
+11:07:37: INFO:  _____              _               _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___| 
+2018-8-21_11:7:37 <-->                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:
+2018-8-21_11:7:37 <--> 07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |                          
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 
+2018-8-21_11:7:37 <--> 17152 and num_partition_sectors =0x180)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuing Erase                       
+11:07:37
+2018-8-21_11:7:37 <--> : INFO:  _____              _               _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __|
+2018-8-21_11:7:37 <-->  | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |  
+2018-8-21_11:7:37 <-->                         
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07:37: I
+2018-8-21_11:7:37 <--> NFO: TARGET SAID: 'start_sector = 17536 and num_partition_sectors =0x200)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuing Eras
+2018-8-21_11:7:37 <--> e                       
+11:07:37: INFO:  _____              _               _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  __
+2018-8-21_11:7:37 <--> _ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:   
+2018-8-21_11:7:37 <-->                            __/ |                          
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 18048 and num_partition_sectors =0x3800)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCES
+2018-8-21_11:7:37 <--> SFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuing Erase                       
+11:07:37: INFO:  _____              _               _____                   
+11:07:37: INFO: |_   _
+2018-8-21_11:7:37 <--> |            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | |
+2018-8-21_11:7:37 <-->  (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |                          
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07:37
+2018-8-21_11:7:37 <--> : INFO: TARGET SAID: 'start_sector = 32384 and num_partition_sectors =0xd00)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuing E
+2018-8-21_11:7:37 <--> rase                       
+11:07:37: INFO:  _____              _               _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___ 
+2018-8-21_11:7:37 <-->  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:
+2018-8-21_11:7:37 <-->                               __/ |                          
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 35712 and num_partition_sectors =0x3800)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUC
+2018-8-21_11:7:37 <--> CESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuing Erase                       
+11:07:37: INFO:  _____              _               _____                   
+11:07:37: INFO: |_ 
+2018-8-21_11:7:37 <-->   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | 
+2018-8-21_11:7:37 <--> | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |                          
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07
+2018-8-21_11:7:37 <--> :37: INFO: TARGET SAID: 'start_sector = 50048 and num_partition_sectors =0x300)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuin
+2018-8-21_11:7:37 <--> g Erase                       
+11:07:37: INFO:  _____              _               _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ _
+2018-8-21_11:7:37 <--> __  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: 
+2018-8-21_11:7:38 <--> INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |                          
+11:07:37: INFO:                 
+2018-8-21_11:7:38 <-->             |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 50816 and num_partition_sectors =0x300)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:
+2018-8-21_11:7:38 <-->                          Issuing Erase                       
+11:07:37: INFO:  _____              _               _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _
+2018-8-21_11:7:38 <-->  _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|
+2018-8-21_11:7:38 <-->   \__,_|___/\___|
+11:07:37: INFO:                              __/ |                          
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 51584 and num_partition_sectors =0x200)'
+11:07:37: INFO
+2018-8-21_11:7:38 <--> : 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuing Erase                       
+11:07:37: INFO:  _____              _               _____       
+2018-8-21_11:7:38 <-->             
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37
+2018-8-21_11:7:38 <--> : INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |                          
+11:07:37: INFO:               
+2018-8-21_11:7:38 <-->               |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 52096 and num_partition_sectors =0xd00)'
+11:07:37: INFO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INF
+2018-8-21_11:7:38 <--> O:                         Issuing Erase                       
+11:07:37: INFO:  _____              _               _____                   
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _
+2018-8-21_11:7:38 <-->  _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/
+2018-8-21_11:7:38 <--> _|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |                          
+11:07:37: INFO:                             |___/ 
+
+
+
+11:07:37: INFO: TARGET SAID: 'start_sector = 55424 and num_partition_sectors =0x180)'
+11:07:37: IN
+2018-8-21_11:7:38 <--> FO: 
+
+
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+11:07:37: INFO: ERASE SUCCESSFUL
+
+
+11:07:37: INFO:                         Issuing Erase                       
+11:07:37: INFO:  _____              _               _____     
+2018-8-21_11:7:38 <-->               
+11:07:37: INFO: |_   _|            (_)             |  ___|                  
+11:07:37: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:37: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:
+2018-8-21_11:7:38 <--> 37: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:37: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:37: INFO:                              __/ |                          
+11:07:37: INFO:             
+2018-8-21_11:7:38 <-->                 |___/ 
+
+
+
+11:07:38: INFO: TARGET SAID: 'start_sector = 55808 and num_partition_sectors =0x200)'
+11:07:38: INFO: 
+
+
+11:07:38: INFO: ERASE SUCCESSFUL
+11:07:38: INFO: ERASE SUCCESSFUL
+11:07:38: INFO: ERASE SUCCESSFUL
+
+
+11:07:38: I
+2018-8-21_11:7:38 <--> NFO:                         Issuing Erase                       
+11:07:38: INFO:  _____            
+2018-8-21_11:7:38 <-->   _               _____                   
+11:07:38: INFO: |_   _|            (_)             |  ___|                  
+11:07:38: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:38: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __
+2018-8-21_11:7:38 <--> | '__/ _` / __|/ _ \
+11:07:38: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:38: INFO:  \___/___/___/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:38: INFO:                              __/ |                          
+
+2018-8-21_11:7:38 <--> 11:07:38: INFO:                             |___/ 
+
+
+
+11:07:38: INFO: TARGET SAID: 'start_sector = 56320 and num_partition_sectors =0x180)'
+11:07:38: INFO: 
+
+
+11:07:38: INFO: ERASE SUCCESSFUL
+11:07:38: INFO: ERASE SUCCESSFUL
+11:07:38: INFO: ERASE
+2018-8-21_11:7:38 <-->  SUCCESSFUL
+
+
+11:07:38: INFO:                         Issuing Erase                       
+11:07:38: INFO:  _____              _               _____                   
+11:07:38: INFO: |_   _|            (_)             |  ___|                  
+11:07
+2018-8-21_11:7:38 <--> :38: INFO:   | | ___ ___ _   _ _ _ __   __ _  | |__ _ __ __ _ ___  ___ 
+11:07:38: INFO:   | |/ __/ __| | | | | '_ \ / _` | |  __| '__/ _` / __|/ _ \
+11:07:38: INFO:  _| |\__ \__ \ |_| | | | | | (_| | | |__| | | (_| \__ \  __/
+11:07:38: INFO:  \___/___/_
+2018-8-21_11:7:38 <--> __/\__,_|_|_| |_|\__, | \____/_|  \__,_|___/\___|
+11:07:38: INFO:                              __/ |                          
+11:07:38: INFO:                             |___/ 
+
+
+
+11:07:38: INFO: TARGET SAID: 'start_sector = 56704 and num_partition_
+2018-8-21_11:7:38 <--> sectors =0x2280)'
+
+11:07:38: INFO: TARGET SAID: 'Skipping:	bad block 0x399'
+
+11:07:38: INFO: TARGET SAID: 'Skipping:	bad block 0x39a'
+
+11:07:38: INFO: TARGET SAID: 'Skipping:	bad block 0x39b'
+11:07:38: INFO: 
+
+
+11:07:38: INFO: ERASE SUCCESSFUL
+1
+2018-8-21_11:7:38 <--> 1:07:38: INFO: ERASE SUCCESSFUL
+11:07:38: INFO: ERASE SUCCESSFUL
+
+
+11:07:38: INFO: In handleProgram('partition_complete_p2K_b128K.mbn')
+11:07:38: INFO: Looking for file 'partition_complete_p2K_b128K.mbn'
+11:07:38: INFO: ==============================
+2018-8-21_11:7:38 <--> =========================
+11:07:38: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\partition_complete_p2K_b128K.mbn'}
+11:07:38: INFO:
+2018-8-21_11:7:38 <-->  {<program> (8.00 KB) 4 sectors needed at location 640 on LUN 0}
+11:07:38: INFO: =======================================================
+
+
+11:07:38: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:07:38: INFO: TARGET SAID: 'start_sector 640, last_sect
+2018-8-21_11:7:38 <--> or_address 644'
+
+11:07:38: INFO: FILE ACCESS SLOW!!    8.00 KB in  0.015 seconds ( 533.33 KBps) --- Overall to target  0.010 seconds (800.00 KBps)
+11:07:38: INFO: {percent files transferred   0.03%}
+
+11:07:38: INFO: TARGET SAID: 'Finished sector addre
+2018-8-21_11:7:38 <--> DL-Rawprogram( 0.03% ),  percent files transferred   0.03% 
+2018-8-21_11:7:38 <--> ss 640'
+11:07:38: INFO: 
+11:07:38: INFO: =======================================================
+11:07:38: INFO: ==================== {SUCCESS} ========================
+11:07:38: INFO: =======================================================
+
+
+11:07:
+2018-8-21_11:7:38 <--> 38: INFO: {percent files transferred   0.03%}
+11:07:38: INFO: In handleProgram('..\cefs.mbn')
+11:07:38: INFO: Looking for file '..\cefs.mbn'
+11:07:38: INFO: =======================================================
+11:07:38: INFO: {<program> FILE: 'E:\Fi
+2018-8-21_11:7:38 <--> rmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\cefs.mbn'}
+11:07:38: INFO: {<program> (524.00 KB) 262 sectors needed at location 4864 on LUN 0}
+11:07:38: INFO: 
+2018-8-21_11:7:38 <--> =======================================================
+
+
+11:07:38: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:07:38: INFO: TARGET SAID: 'start_sector 4864, last_sector_address 5126'
+
+11:07:38: INFO: FILE ACCESS SLOW!!  524.00 KB in  0.015 secon
+2018-8-21_11:7:38 <--> ds (  34.11 MBps) --- Overall to target  0.125 seconds (4.09 MBps)
+11:07:38: INFO: {percent files transferred   1.85%}
+
+11:07:38: INFO: TARGET SAID: 'Finished sector address 4864'
+11:07:38: INFO: 
+11:07:38: INFO: ======================================
+2018-8-21_11:7:38 <--> DL-Rawprogram( 1.85% ),  percent files transferred   1.85% 
+2018-8-21_11:7:38 <--> =================
+11:07:38: INFO: ==================== {SUCCESS} ======================
+2018-8-21_11:7:38 <--> ==
+11:07:38: INFO: =======================================================
+
+
+11:07:38: INFO: {percent files transferred   1.85%}
+11:07:38: INFO: In handleProgram('..\tz.mbn')
+11:07:38: INFO: Looking for file '..\tz.mbn'
+11:07:38: INFO: =============
+2018-8-21_11:7:38 <--> ==========================================
+11:07:38: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\tz.mbn'}
+11:07:38: INFO: {<pro
+2018-8-21_11:7:38 <--> gram> (538.50 KB) 270 sectors needed at location 15616 on LUN 0}
+11:07:38: INFO: =======================================================
+
+
+11:07:38: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:07:38: INFO: TARGET SAID: 'start_sector 15616, last_se
+2018-8-21_11:7:38 <--> ctor_address 15886'
+
+11:07:38: INFO: FILE ACCESS SLOW!!  540.00 KB in  0.015 seconds (  35.16 MBps) --- Overall to target  0.125 seconds (4.22 MBps)
+11:07:38: INFO: {percent files transferred   3.73%}
+
+11:07:38: INFO: TARGET SAID: 'Finished sector add
+2018-8-21_11:7:38 <--> DL-Rawprogram( 3.73% ),  percent files transferred   3.73% 
+2018-8-21_11:7:38 <--> ress 15616'
+11:07:38: INFO: 
+11:07:38: INFO: =======================================================
+11:07:38: INFO: ==================== {SUCCESS} ========================
+11:07:38: INFO: =======================================================
+
+
+11
+2018-8-21_11:7:38 <--> :07:38: INFO: {percent files transferred   3.73%}
+11:07:38: INFO: In handleProgram('..\mba.mbn')
+11:07:38: INFO: Looking for file '..\mba.mbn'
+11:07:38: INFO: =======================================================
+11:07:38: INFO: {<program> FILE: 'E:\
+2018-8-21_11:7:38 <--> Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\mba.mbn'}
+11:07:38: INFO: {<program> (240.34 KB) 121 sectors needed at location 16384 on LUN 0}
+11:07:38: INFO
+2018-8-21_11:7:38 <--> : =======================================================
+
+
+11:07:38: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:07:38: INFO: TARGET SAID: 'start_sector 16384, last_sector_address 16505'
+
+11:07:38: INFO: FILE ACCESS SLOW!!  242.00 KB in  0.015 s
+2018-8-21_11:7:38 <--> econds (  15.76 MBps) --- Overall to target  0.063 seconds (3.75 MBps)
+11:07:38: INFO: {percent files transferred   4.57%}
+
+11:07:38: INFO: TARGET SAID: 'Finished sector address 16384'
+11:07:38: INFO: 
+11:07:38: INFO: =================================
+2018-8-21_11:7:38 <--> DL-Rawprogram( 4.57% ),  percent files transferred   4.57% 
+2018-8-21_11:7:38 <--> ======================
+11:07:38: INFO: ==================== {SUCCESS} ========================
+11:07:38: INFO: =======================================================
+
+
+11:07:38: INFO: {percent files transferred   4.57%}
+11:07:38: INFO: In handleProg
+2018-8-21_11:7:38 <--> ram('..\acdb.mbn')
+11:07:38: INFO: Looking for file '..\acdb.mbn'
+11:07:38: INFO: =======================================================
+11:07:38: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A0
+2018-8-21_11:7:38 <--> 8M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\acdb.mbn'}
+11:07:38: INFO: {<program> (128.04 KB) 65 sectors needed at location 17152 on LUN 0}
+11:07:38: INFO: =======================================================
+
+
+11:07:38: INFO:
+2018-8-21_11:7:38 <-->  TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:07:38: INFO: TARGET SAID: 'start_sector 17152, last_sector_address 17217'
+
+11:07:38: INFO: FILE ACCESS SLOW!!  130.00 KB in  0.015 seconds (   8.46 MBps) --- Overall to target  0.031 seconds (4.10 MBps)
+11:07:
+2018-8-21_11:7:38 <--> 38: INFO: {percent files transferred   5.01%}
+
+11:07:38: INFO: TARGET SAID: 'Finished sector address 17152'
+11:07:38: INFO: 
+11:07:38: INFO: =======================================================
+11:07:38: INFO: ==================== {SUCCESS} =======
+2018-8-21_11:7:38 <--> DL-Rawprogram( 5.01% ),  percent files transferred   5.01% 
+2018-8-21_11:7:38 <--> =================
+11:07:38: INFO: =======================================================
+
+
+11:07:38: INFO: {percent files transferred   5.01%}
+11:07:38: INFO: In handleProgram('..\rpm.mbn')
+11:07:38: INFO: Looking for file '..\rpm.mbn'
+11:07:38: IN
+2018-8-21_11:7:38 <--> FO: =======================================================
+11:07:38: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\rpm.mbn'}
+11:
+2018-8-21_11:7:38 <--> 07:38: INFO: {<program> (153.02 KB) 77 sectors needed at location 17536 on LUN
+2018-8-21_11:7:45 <-->  0}
+11:07:38: INFO: =======================================================
+
+
+11:07:38: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:07:38: INFO: TARGET SAID: 'start_sector 17536, last_sector_address 17613'
+
+11:07:38: INFO: FILE ACCESS SLOW!!  15
+2018-8-21_11:7:45 <--> 4.00 KB in  0.015 seconds (  10.03 MBps) --- Overall to target  0.046 seconds (3.27 MBps)
+11:07:38: INFO: {percent files transferred   5.55%}
+
+11:07:38: INFO: TARGET SAID: 'Finished sector address 17536'
+11:07:38: INFO: 
+11:07:38: INFO: ==============
+2018-8-21_11:7:45 <--> DL-Rawprogram( 5.55% ),  percent files transferred   5.55% 
+2018-8-21_11:7:45 <--> =========================================
+11:07:38: INFO: ==================== {SUCCESS} ========================
+11:07:38: INFO: =======================================================
+
+
+11:07:38: INFO: {percent files transferred   5.55%}
+11:07:38: 
+2018-8-21_11:7:45 <--> INFO: In handleProgram('..\qdsp6sw.mbn')
+11:07:38: INFO: Looking for file '..\qdsp6sw.mbn'
+11:07:38: INFO: =======================================================
+11:07:38: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA
+2018-8-21_11:7:45 <--> 0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\qdsp6sw.mbn'}
+11:07:38: INFO: {<program> (22.33 MB) 11435 sectors needed at location 18048 on LUN 0}
+11:07:38: INFO: ==============================================
+2018-8-21_11:7:45 <--> =========
+
+
+11:07:38: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:07:38: INFO: TARGET SAID: 'start_sector 18048, last_sector_address 29483'
+
+11:07:40: INFO: Overall to target  2.013 seconds (3.97 MBps)
+11:07:40: INFO: {percent files transferred 
+2018-8-21_11:7:45 <-->  34.04%}
+11:07:42: INFO: Overall to target  4.025 seconds (4.00 MBps)
+11:07:42: INFO: {percent files transferred  62.98%}
+11:07:44: INFO: Overall to target  5.554 seconds (4.02 MBps)
+11:07:44: INFO: {percent files transferred  85.24%}
+
+11:07:44: INFO
+2018-8-21_11:7:45 <--> DL-Rawprogram( 62.98% ),  percent files transferred  62.98% 
+2018-8-21_11:7:45 <--> DL-Rawprogram( 85.24% ),  percent files transferred  85.24% 
+2018-8-21_11:7:45 <--> : TARGET SAID: 'Finished sector address 18048'
+11:07:44: INFO: 
+11:07:44: INFO: =======================================================
+11:07:44: INFO: ==================== {SUCCESS} ========================
+11:07:44: INFO: ============================
+2018-8-21_11:7:45 <--> ===========================
+
+
+11:07:44: INFO: {percent files transferred  85.24%}
+11:07:44: INFO: In handleProgram('..\apps.mbn')
+11:07:44: INFO: Looking for file '..\apps.mbn'
+11:07:44: INFO: =======================================================
+
+2018-8-21_11:7:45 <--> 11:07:44: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\apps.mbn'}
+11:07:44: INFO: {<program> (3.90 MB) 1997 sectors needed at loc
+2018-8-21_11:7:45 <--> ation 32384 on LUN 0}
+11:07:44: INFO: =======================================================
+
+
+11:07:44: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:07:44: INFO: TARGET SAID: 'start_sector 32384, last_sector_address 34381'
+
+11:07:45: INFO: Over
+2018-8-21_11:7:45 <--> all to target  0.952 seconds (4.10 MBps)
+11:07:45: INFO: {percent files transferred  99.15%}
+
+11:07:45: INFO: TARGET SAID: 'Finished sector address 32384'
+11:07:45: INFO: 
+11:07:45: INFO: =======================================================
+11:07:
+2018-8-21_11:7:45 <--> DL-Rawprogram( 99.15% ),  percent files transferred  99.15% 
+2018-8-21_11:7:45 <--> 45: INFO: ==================== {SUCCESS} ========================
+11:07:45: INFO: =======================================================
+
+
+11:07:45: INFO: {percent files transferred  99.15%}
+11:07:45: INFO: In handleProgram('..\efs2apps.mbn')
+11:07:
+2018-8-21_11:7:45 <--> 45: INFO: Looking for file '..\efs2apps.mbn'
+11:07:45: INFO: =======================================================
+11:07:45: INFO: {<program> FILE: 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.
+2018-8-21_11:7:45 <--> 01.001_BETA0814A_FACTORY\update\firehose\..\efs2apps.mbn'}
+11:07:45: INFO: {<program> (24.00 KB) 12 sectors needed at location 56704 on LUN 0}
+11:07:45: INFO: =======================================================
+
+
+11:07:45: INFO: TARGET SAID: 'INSI
+2018-8-21_11:7:45 <--> DE HANDLE PROGRAM'
+
+11:07:45: INFO: TARGET SAID: 'start_sector 56704, last_sector_address 56716'
+
+11:07:45: INFO: FILE ACCESS SLOW!!   24.00 KB in  0.015 seconds (   1.56 MBps) --- Overall to target  0.010 seconds (2.34 MBps)
+11:07:45: INFO: {percent 
+2018-8-21_11:7:45 <--> files transferred  99.24%}
+
+11:07:45: INFO: TARGET SAID: 'Finished sector address 
+2018-8-21_11:7:45 <--> 56704'
+11:07:45: INFO: 
+11:07:45: INFO: =======================================================
+11:07:45: INFO: ==================== {SUCCESS} ========================
+11:07:45: INFO: =======================================================
+
+
+11:07:4
+2018-8-21_11:7:45 <--> 5: INFO: {percent files transferred  99.24%}
+11:07:45: INFO: In handleProgram('..\sbl1.mbn')
+11:07:45: INFO: Looking for file '..\sbl1.mbn'
+11:07:45: INFO: =======================================================
+11:07:45: INFO: {<program> FILE: 'E:\Fir
+2018-8-21_11:7:45 <--> DL-Rawprogram( 99.24% ),  percent files transferred  99.24% 
+2018-8-21_11:7:45 <--> mware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\sbl1.mbn'}
+11:07:45: INFO: {<program> (219.48 KB) 110 sectors needed at location 0 on LUN 0}
+11:07:45: INFO: ====
+2018-8-21_11:7:45 <--> ===================================================
+
+
+11:07:45: INFO: TARGET SAID: 'INSIDE HANDLE PROGRAM'
+
+11:07:45: INFO: TARGET SAID: 'start_sector 0, last_sector_address 110'
+
+11:07:45: INFO: FILE ACCESS SLOW!!  220.00 KB in  0.015 seconds (  14
+2018-8-21_11:7:45 <--> .32 MBps) --- Overall to target  0.063 seconds (3.41 MBps)
+11:07:45: INFO: {percent files transferred 100.00%}
+
+11:07:45: INFO: TARGET SAID: 'Finished sector address 0'
+11:07:45: INFO: 
+11:07:45: INFO: =================================================
+2018-8-21_11:7:45 <--> DL-Rawprogram( 100.00% ),  percent files transferred 100.00% 
+2018-8-21_11:7:45 <--> ======
+11:07:45: INFO: ==================== {SUCCESS} ========================
+11:07:45: INFO: =======================================================
+
+
+11:07:45: INFO: {percent files transferred 100.00%}
+11:07:45: INFO: =============================
+2018-8-21_11:7:45 <--> =================================
+11:07:45: INFO: Files used and their paths
+11:07:45: INFO:   1 'F:\code\QFlash_V4.10_Ext\Release\port_trace.txt'
+11:07:45: INFO:   2 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G
+2018-8-21_11:7:45 <--> _TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\rawprogram_nand_p2K_b128K_factory.xml'
+11:07:45: INFO:   3 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\f
+2018-8-21_11:7:45 <--> irehose\partition_complete_p2K_b128K.mbn'
+11:07:45: INFO:   4 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\cefs.mbn'
+11:07:45: INFO:   5 'E:\Firmware\B
+2018-8-21_11:7:45 <--> G96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\tz.mbn'
+11:07:45: INFO:   6 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP08
+2018-8-21_11:7:45 <--> 11A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\mba.mbn'
+11:07:45: INFO:   7 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\acdb.mbn'
+11:07:45: IN
+2018-8-21_11:7:45 <--> FO:   8 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\rpm.mbn'
+11:07:45: INFO:   9 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY
+2018-8-21_11:7:45 <--> \BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\qdsp6sw.mbn'
+11:07:45: INFO:  10 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose
+2018-8-21_11:7:45 <--> \..\apps.mbn'
+11:07:45: INFO:  11 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\efs2apps.mbn'
+11:07:45: INFO:  12 'E:\Firmware\BG96MAR02A08M1G_TEMP0811A
+2018-8-21_11:7:45 <--> _01.001.01.001_BETA0814A_FACTORY\BG96MAR02A08M1G_TEMP0811A_01.001.01.001_BETA0814A_FACTORY\update\firehose\..\sbl1.mbn'
+
+11:07:45: INFO:      _             (done)
+11:07:45: INFO:     | |                 
+11:07:45: INFO:   __| | ___  _ __   ___ 
+11:07:
+2018-8-21_11:7:45 <--> 45: INFO:  / _` |/ _ \| '_ \ / _ \
+11:07:45: INFO: | (_| | (_) | | | |  __/
+11:07:45: INFO:  \__,_|\___/|_| |_|\___|
+11:07:45: INFO: {All Finished Successfully}
+
+11:07:45: INFO: Overall to target  8.533 seconds (3.28 MBps)
+11:07:45: INFO: {percent fi
+2018-8-21_11:7:45 <--> DL-Rawprogram, wait for 1 seconds ......
+2018-8-21_11:7:46 <--> DL-Rawprogram, wait for 0 seconds ......
+2018-8-21_11:7:47 <--> FW download success.
+2018-8-22_10:18:21 <--> E:\Firmware\UC15EQAR03A04V01E1G_factory\UC15EQAR03A04V01E1G_factory\UC15EQAR03A04V01E1G\partition.mbn
+2018-8-22_10:18:22 <--> Download partition table file finished
+2018-8-22_10:22:24 <--> E:\Firmware\UC15EQAR03A04V02E1G\UC15EQAR03A04V02E1G\UC15EQAR03A04V02E1G\partition.mbn
+2018-8-22_10:22:24 <--> Download partition table file finished
+2018-8-22_11:18:47 <--> E:\Firmware\UC15EQAR03A04V02E1G\UC15EQAR03A04V02E1G\UC15EQAR03A04V02E1G\partition.mbn
+2018-8-22_11:18:47 <--> Download partition table file finished
+2020-4-3_9:47:32 <--> DM 77
+2020-4-3_9:49:26 <--> DM 77
+2020-4-3_9:50:3 <--> DM 77
+2020-4-3_9:51:21 <--> DM 77
+2020-4-3_10:20:36 <--> DM 83
+2020-4-3_10:21:20 <--> DM 84
